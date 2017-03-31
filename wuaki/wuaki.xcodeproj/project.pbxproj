@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9726DF1E8E624D00E8917D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9726DE1E8E624D00E8917D /* main.m */; };
+		1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727161E8E6D9E00E8917D /* AppDelegate.m */; };
+		1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727191E8E6D9E00E8917D /* DetailViewController.m */; };
+		1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97271B1E8E6D9E00E8917D /* MasterViewController.m */; };
+		1D9727301E8E6DA600E8917D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9727261E8E6DA600E8917D /* Assets.xcassets */; };
+		1D9727321E8E6DA600E8917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272B1E8E6DA600E8917D /* LaunchScreen.storyboard */; };
+		1D9727331E8E6DA600E8917D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272D1E8E6DA600E8917D /* Main.storyboard */; };
+		1D9727361E8E6DD100E8917D /* wuakiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727351E8E6DD100E8917D /* wuakiTests.m */; };
+		1D9727441E8E6DEC00E8917D /* wuakiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727401E8E6DEC00E8917D /* wuakiUITests.m */; };
+		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
+		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9726F71E8E624E00E8917D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9726D21E8E624D00E8917D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9726D91E8E624D00E8917D;
+			remoteInfo = wuaki;
+		};
+		1D9727021E8E624E00E8917D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9726D21E8E624D00E8917D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9726D91E8E624D00E8917D;
+			remoteInfo = wuaki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D9726DA1E8E624D00E8917D /* wuaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wuaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9726DE1E8E624D00E8917D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D9726F61E8E624E00E8917D /* wuakiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wuakiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9727011E8E624E00E8917D /* wuakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wuakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9727151E8E6D9E00E8917D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D9727161E8E6D9E00E8917D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D9727181E8E6D9E00E8917D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1D9727191E8E6D9E00E8917D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1D97271A1E8E6D9E00E8917D /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1D97271B1E8E6D9E00E8917D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1D9727261E8E6DA600E8917D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D9727281E8E6DA600E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D97272C1E8E6DA600E8917D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D97272E1E8E6DA600E8917D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D9727351E8E6DD100E8917D /* wuakiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuakiTests.m; sourceTree = "<group>"; };
+		1D9727391E8E6DD800E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9727401E8E6DEC00E8917D /* wuakiUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuakiUITests.m; sourceTree = "<group>"; };
+		1D9727431E8E6DEC00E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
+		B5E690A4A7258C546205BFE0 /* Pods-wuaki-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5DCEA8F6FDE22E3CBA4EA62 /* Pods-wuaki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki-wuakiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB129D9FFFDB9B49B747D8AC /* Pods-wuaki-wuakiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki-wuakiTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9726D71E8E624D00E8917D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9726F31E8E624E00E8917D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9726FE1E8E624E00E8917D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D9726D11E8E624D00E8917D = {
+			isa = PBXGroup;
+			children = (
+				1D9726DC1E8E624D00E8917D /* wuaki */,
+				1D9726F91E8E624E00E8917D /* wuakiTests */,
+				1D9727041E8E624E00E8917D /* wuakiUITests */,
+				1D9726DB1E8E624D00E8917D /* Products */,
+				F1C7315F18EB1C8F4ECD11F5 /* Pods */,
+				F9544EBAFC3B01D4DA8F277B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9726DB1E8E624D00E8917D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9726DA1E8E624D00E8917D /* wuaki.app */,
+				1D9726F61E8E624E00E8917D /* wuakiTests.xctest */,
+				1D9727011E8E624E00E8917D /* wuakiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D9726DC1E8E624D00E8917D /* wuaki */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727131E8E6D9E00E8917D /* classes */,
+				1D9727241E8E6DA600E8917D /* resources */,
+				1D9726DD1E8E624D00E8917D /* Supporting Files */,
+			);
+			path = wuaki;
+			sourceTree = "<group>";
+		};
+		1D9726DD1E8E624D00E8917D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D9726DE1E8E624D00E8917D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D9726F91E8E624E00E8917D /* wuakiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727341E8E6DD100E8917D /* classes */,
+				1D9727371E8E6DD800E8917D /* resources */,
+			);
+			path = wuakiTests;
+			sourceTree = "<group>";
+		};
+		1D9727041E8E624E00E8917D /* wuakiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D97273F1E8E6DEC00E8917D /* classes */,
+				1D9727411E8E6DEC00E8917D /* resources */,
+			);
+			path = wuakiUITests;
+			sourceTree = "<group>";
+		};
+		1D9727131E8E6D9E00E8917D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727141E8E6D9E00E8917D /* app-delegate */,
+				1D9727171E8E6D9E00E8917D /* controllers */,
+				1D97271C1E8E6D9E00E8917D /* controls */,
+				1D97271D1E8E6D9E00E8917D /* helpers */,
+				1D97271E1E8E6D9E00E8917D /* logic */,
+				1D97271F1E8E6D9E00E8917D /* models */,
+				1D9727201E8E6D9E00E8917D /* views */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		1D9727141E8E6D9E00E8917D /* app-delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727151E8E6D9E00E8917D /* AppDelegate.h */,
+				1D9727161E8E6D9E00E8917D /* AppDelegate.m */,
+			);
+			path = "app-delegate";
+			sourceTree = "<group>";
+		};
+		1D9727171E8E6D9E00E8917D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727181E8E6D9E00E8917D /* DetailViewController.h */,
+				1D9727191E8E6D9E00E8917D /* DetailViewController.m */,
+				1D97271A1E8E6D9E00E8917D /* MasterViewController.h */,
+				1D97271B1E8E6D9E00E8917D /* MasterViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		1D97271C1E8E6D9E00E8917D /* controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		1D97271D1E8E6D9E00E8917D /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		1D97271E1E8E6D9E00E8917D /* logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = logic;
+			sourceTree = "<group>";
+		};
+		1D97271F1E8E6D9E00E8917D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1D9727201E8E6D9E00E8917D /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1D9727241E8E6DA600E8917D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727251E8E6DA600E8917D /* assets */,
+				1D9727271E8E6DA600E8917D /* configuration */,
+				1D9727291E8E6DA600E8917D /* data */,
+				1D97272A1E8E6DA600E8917D /* storyboards */,
+				1D97272F1E8E6DA600E8917D /* strings */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1D9727251E8E6DA600E8917D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727261E8E6DA600E8917D /* Assets.xcassets */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		1D9727271E8E6DA600E8917D /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727281E8E6DA600E8917D /* Info.plist */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		1D9727291E8E6DA600E8917D /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		1D97272A1E8E6DA600E8917D /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1D97272B1E8E6DA600E8917D /* LaunchScreen.storyboard */,
+				1D97272D1E8E6DA600E8917D /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		1D97272F1E8E6DA600E8917D /* strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = strings;
+			sourceTree = "<group>";
+		};
+		1D9727341E8E6DD100E8917D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727351E8E6DD100E8917D /* wuakiTests.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		1D9727371E8E6DD800E8917D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727381E8E6DD800E8917D /* configuration */,
+				1D97273A1E8E6DD800E8917D /* fixtures */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1D9727381E8E6DD800E8917D /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727391E8E6DD800E8917D /* Info.plist */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		1D97273A1E8E6DD800E8917D /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				1D97273B1E8E6DD800E8917D /* mappings */,
+				1D97273C1E8E6DD800E8917D /* requests */,
+				1D97273D1E8E6DD800E8917D /* responses */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		1D97273B1E8E6DD800E8917D /* mappings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mappings;
+			sourceTree = "<group>";
+		};
+		1D97273C1E8E6DD800E8917D /* requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		1D97273D1E8E6DD800E8917D /* responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
+		1D97273F1E8E6DEC00E8917D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727401E8E6DEC00E8917D /* wuakiUITests.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		1D9727411E8E6DEC00E8917D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727421E8E6DEC00E8917D /* configuration */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1D9727421E8E6DEC00E8917D /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727431E8E6DEC00E8917D /* Info.plist */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		F1C7315F18EB1C8F4ECD11F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5DCEA8F6FDE22E3CBA4EA62 /* Pods-wuaki.debug.xcconfig */,
+				A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */,
+				FB129D9FFFDB9B49B747D8AC /* Pods-wuaki-wuakiTests.debug.xcconfig */,
+				B5E690A4A7258C546205BFE0 /* Pods-wuaki-wuakiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9544EBAFC3B01D4DA8F277B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */,
+				FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D9726D91E8E624D00E8917D /* wuaki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D97270A1E8E624E00E8917D /* Build configuration list for PBXNativeTarget "wuaki" */;
+			buildPhases = (
+				1AC2176F76323737B426ECBD /* [CP] Check Pods Manifest.lock */,
+				1D9726D61E8E624D00E8917D /* Sources */,
+				1D9726D71E8E624D00E8917D /* Frameworks */,
+				1D9726D81E8E624D00E8917D /* Resources */,
+				9FCF70B72CECBB4F6156FFC0 /* [CP] Embed Pods Frameworks */,
+				EDFCBDE66DC4BE251CF1BC75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wuaki;
+			productName = wuaki;
+			productReference = 1D9726DA1E8E624D00E8917D /* wuaki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D9726F51E8E624E00E8917D /* wuakiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D97270D1E8E624E00E8917D /* Build configuration list for PBXNativeTarget "wuakiTests" */;
+			buildPhases = (
+				4A0209D1471909B393D5BF45 /* [CP] Check Pods Manifest.lock */,
+				1D9726F21E8E624E00E8917D /* Sources */,
+				1D9726F31E8E624E00E8917D /* Frameworks */,
+				1D9726F41E8E624E00E8917D /* Resources */,
+				824D3817BBC70695B552687A /* [CP] Embed Pods Frameworks */,
+				6BC6641C3AD07FB00112A9A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9726F81E8E624E00E8917D /* PBXTargetDependency */,
+			);
+			name = wuakiTests;
+			productName = wuakiTests;
+			productReference = 1D9726F61E8E624E00E8917D /* wuakiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D9727001E8E624E00E8917D /* wuakiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9727101E8E624E00E8917D /* Build configuration list for PBXNativeTarget "wuakiUITests" */;
+			buildPhases = (
+				1D9726FD1E8E624E00E8917D /* Sources */,
+				1D9726FE1E8E624E00E8917D /* Frameworks */,
+				1D9726FF1E8E624E00E8917D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9727031E8E624E00E8917D /* PBXTargetDependency */,
+			);
+			name = wuakiUITests;
+			productName = wuakiUITests;
+			productReference = 1D9727011E8E624E00E8917D /* wuakiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D9726D21E8E624D00E8917D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "OPEN input";
+				TargetAttributes = {
+					1D9726D91E8E624D00E8917D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AH2VYU3NT5;
+						ProvisioningStyle = Automatic;
+					};
+					1D9726F51E8E624E00E8917D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AH2VYU3NT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D9726D91E8E624D00E8917D;
+					};
+					1D9727001E8E624E00E8917D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AH2VYU3NT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D9726D91E8E624D00E8917D;
+					};
+				};
+			};
+			buildConfigurationList = 1D9726D51E8E624D00E8917D /* Build configuration list for PBXProject "wuaki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D9726D11E8E624D00E8917D;
+			productRefGroup = 1D9726DB1E8E624D00E8917D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D9726D91E8E624D00E8917D /* wuaki */,
+				1D9726F51E8E624E00E8917D /* wuakiTests */,
+				1D9727001E8E624E00E8917D /* wuakiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D9726D81E8E624D00E8917D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9727331E8E6DA600E8917D /* Main.storyboard in Resources */,
+				1D9727301E8E6DA600E8917D /* Assets.xcassets in Resources */,
+				1D9727321E8E6DA600E8917D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9726F41E8E624E00E8917D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9726FF1E8E624E00E8917D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AC2176F76323737B426ECBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A0209D1471909B393D5BF45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC6641C3AD07FB00112A9A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		824D3817BBC70695B552687A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCF70B72CECBB4F6156FFC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuaki/Pods-wuaki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDFCBDE66DC4BE251CF1BC75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuaki/Pods-wuaki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9726D61E8E624D00E8917D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9726DF1E8E624D00E8917D /* main.m in Sources */,
+				1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */,
+				1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */,
+				1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9726F21E8E624E00E8917D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9727361E8E6DD100E8917D /* wuakiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9726FD1E8E624E00E8917D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9727441E8E6DEC00E8917D /* wuakiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9726F81E8E624E00E8917D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9726D91E8E624D00E8917D /* wuaki */;
+			targetProxy = 1D9726F71E8E624E00E8917D /* PBXContainerItemProxy */;
+		};
+		1D9727031E8E624E00E8917D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9726D91E8E624D00E8917D /* wuaki */;
+			targetProxy = 1D9727021E8E624E00E8917D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D97272B1E8E6DA600E8917D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D97272C1E8E6DA600E8917D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1D97272D1E8E6DA600E8917D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D97272E1E8E6DA600E8917D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D9727081E8E624E00E8917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D9727091E8E624E00E8917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D97270B1E8E624E00E8917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DCEA8F6FDE22E3CBA4EA62 /* Pods-wuaki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AH2VYU3NT5;
+				INFOPLIST_FILE = wuaki/resources/configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openinput.wuaki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D97270C1E8E624E00E8917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AH2VYU3NT5;
+				INFOPLIST_FILE = wuaki/resources/configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openinput.wuaki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D97270E1E8E624E00E8917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB129D9FFFDB9B49B747D8AC /* Pods-wuaki-wuakiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AH2VYU3NT5;
+				INFOPLIST_FILE = wuakiTests/resources/configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openinput.wuakiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wuaki.app/wuaki";
+			};
+			name = Debug;
+		};
+		1D97270F1E8E624E00E8917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E690A4A7258C546205BFE0 /* Pods-wuaki-wuakiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AH2VYU3NT5;
+				INFOPLIST_FILE = wuakiTests/resources/configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openinput.wuakiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wuaki.app/wuaki";
+			};
+			name = Release;
+		};
+		1D9727111E8E624E00E8917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AH2VYU3NT5;
+				INFOPLIST_FILE = wuakiUITests/resources/configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openinput.wuakiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wuaki;
+			};
+			name = Debug;
+		};
+		1D9727121E8E624E00E8917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AH2VYU3NT5;
+				INFOPLIST_FILE = wuakiUITests/resources/configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openinput.wuakiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wuaki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9726D51E8E624D00E8917D /* Build configuration list for PBXProject "wuaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9727081E8E624E00E8917D /* Debug */,
+				1D9727091E8E624E00E8917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D97270A1E8E624E00E8917D /* Build configuration list for PBXNativeTarget "wuaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D97270B1E8E624E00E8917D /* Debug */,
+				1D97270C1E8E624E00E8917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D97270D1E8E624E00E8917D /* Build configuration list for PBXNativeTarget "wuakiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D97270E1E8E624E00E8917D /* Debug */,
+				1D97270F1E8E624E00E8917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9727101E8E624E00E8917D /* Build configuration list for PBXNativeTarget "wuakiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9727111E8E624E00E8917D /* Debug */,
+				1D9727121E8E624E00E8917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D9726D21E8E624D00E8917D /* Project object */;
+}
