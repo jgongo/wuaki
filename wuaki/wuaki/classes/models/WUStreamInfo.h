@@ -12,7 +12,7 @@
 
 @interface WUStreamInfo : NSObject
 @property (nonatomic, copy) NSString *player;
-@property (nonatomic, copy) NSURL *url;
+@property (nonatomic, copy) NSURL    *url;
 @property (nonatomic, copy) NSString *cdn;
 @property (nonatomic, copy) NSString *wrid;
 @end
