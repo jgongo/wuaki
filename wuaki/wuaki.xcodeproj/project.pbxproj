@@ -17,6 +17,7 @@
 		1D9727361E8E6DD100E8917D /* wuakiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727351E8E6DD100E8917D /* wuakiTests.m */; };
 		1D9727441E8E6DEC00E8917D /* wuakiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727401E8E6DEC00E8917D /* wuakiUITests.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
+		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +59,11 @@
 		1D9727431E8E6DEC00E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
+		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5E690A4A7258C546205BFE0 /* Pods-wuaki-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B67CFDB9DC35A429DCC6FCDF /* Pods-wuakiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5DCEA8F6FDE22E3CBA4EA62 /* Pods-wuaki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuakiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki-wuakiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB129D9FFFDB9B49B747D8AC /* Pods-wuaki-wuakiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki-wuakiTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */,
+				38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +361,8 @@
 				A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */,
 				FB129D9FFFDB9B49B747D8AC /* Pods-wuaki-wuakiTests.debug.xcconfig */,
 				B5E690A4A7258C546205BFE0 /* Pods-wuaki-wuakiTests.release.xcconfig */,
+				B67CFDB9DC35A429DCC6FCDF /* Pods-wuakiTests.debug.xcconfig */,
+				AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -365,6 +372,7 @@
 			children = (
 				49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */,
 				FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */,
+				FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -549,7 +557,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		824D3817BBC70695B552687A /* [CP] Embed Pods Frameworks */ = {
@@ -564,7 +572,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuaki-wuakiTests/Pods-wuaki-wuakiTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9FCF70B72CECBB4F6156FFC0 /* [CP] Embed Pods Frameworks */ = {
@@ -780,7 +788,7 @@
 		};
 		1D97270E1E8E624E00E8917D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB129D9FFFDB9B49B747D8AC /* Pods-wuaki-wuakiTests.debug.xcconfig */;
+			baseConfigurationReference = B67CFDB9DC35A429DCC6FCDF /* Pods-wuakiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = AH2VYU3NT5;
@@ -794,7 +802,7 @@
 		};
 		1D97270F1E8E624E00E8917D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E690A4A7258C546205BFE0 /* Pods-wuaki-wuakiTests.release.xcconfig */;
+			baseConfigurationReference = AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = AH2VYU3NT5;

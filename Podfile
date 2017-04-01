@@ -27,8 +27,8 @@ target 'wuaki' do
   pod 'SDWebImage',      '3.8.2'
 
   target 'wuakiTests' do
-    pod 'Kiwi',           '2.0.6'
-    pod 'RKKiwiMatchers', '0.20.0'
+    inherit! :search_paths
+    pod 'Kiwi',           '2.4.0'
     pod 'OHHTTPStubs',    '5.2.1'
   end
 end
