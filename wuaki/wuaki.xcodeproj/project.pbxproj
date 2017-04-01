@@ -51,6 +51,26 @@
 		1D9727441E8E6DEC00E8917D /* wuakiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727401E8E6DEC00E8917D /* wuakiUITests.m */; };
 		1D9727491E8ECE9C00E8917D /* INLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727481E8ECE9C00E8917D /* INLogFormatter.m */; };
 		1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */; };
+		1DA900F31E900F18001EA850 /* WUMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA900F21E900F18001EA850 /* WUMovie.m */; };
+		1DA900F61E900FBD001EA850 /* WUPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA900F51E900FBD001EA850 /* WUPeople.m */; };
+		1DA900F91E90129B001EA850 /* WUMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA900F81E90129B001EA850 /* WUMedia.m */; };
+		1DA900FC1E9016E1001EA850 /* WUMediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA900FB1E9016E1001EA850 /* WUMediaInfo.m */; };
+		1DA900FF1E90177B001EA850 /* WULanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA900FE1E90177B001EA850 /* WULanguage.m */; };
+		1DA901021E901809001EA850 /* WUQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901011E901809001EA850 /* WUQuality.m */; };
+		1DA901051E901845001EA850 /* WUVideoQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901041E901845001EA850 /* WUVideoQuality.m */; };
+		1DA901081E90185C001EA850 /* WUAudioQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901071E90185C001EA850 /* WUAudioQuality.m */; };
+		1DA9010B1E901883001EA850 /* WUDRMType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9010A1E901883001EA850 /* WUDRMType.m */; };
+		1DA9010E1E90198E001EA850 /* WUContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9010D1E90198E001EA850 /* WUContent.m */; };
+		1DA901101E901A71001EA850 /* movie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9010F1E901A71001EA850 /* movie.json */; };
+		1DA901131E901AAD001EA850 /* WUMovieMappingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901121E901AAD001EA850 /* WUMovieMappingSpec.m */; };
+		1DA901161E902164001EA850 /* WUAudioQuality+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901151E902164001EA850 /* WUAudioQuality+MappedEntity.m */; };
+		1DA9011C1E902204001EA850 /* WUDRMType+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9011B1E902204001EA850 /* WUDRMType+MappedEntity.m */; };
+		1DA9011F1E90221A001EA850 /* WULanguage+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9011E1E90221A001EA850 /* WULanguage+MappedEntity.m */; };
+		1DA901221E90222C001EA850 /* WUMedia+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901211E90222C001EA850 /* WUMedia+MappedEntity.m */; };
+		1DA901251E902239001EA850 /* WUMediaInfo+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901241E902239001EA850 /* WUMediaInfo+MappedEntity.m */; };
+		1DA901281E902249001EA850 /* WUMovie+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901271E902249001EA850 /* WUMovie+MappedEntity.m */; };
+		1DA9012B1E902267001EA850 /* WUPeople+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9012A1E902267001EA850 /* WUPeople+MappedEntity.m */; };
+		1DA9012E1E902277001EA850 /* WUVideoQuality+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9012D1E902277001EA850 /* WUVideoQuality+MappedEntity.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -157,6 +177,44 @@
 		1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INMappedEntitiesCatalog.m; sourceTree = "<group>"; };
 		1D97274D1E8ED11400E8917D /* INMappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappedEntity.h; sourceTree = "<group>"; };
 		1D97274E1E8ED11400E8917D /* INMappingCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappingCatalog.h; sourceTree = "<group>"; };
+		1DA900F11E900F18001EA850 /* WUMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUMovie.h; sourceTree = "<group>"; };
+		1DA900F21E900F18001EA850 /* WUMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUMovie.m; sourceTree = "<group>"; };
+		1DA900F41E900FBD001EA850 /* WUPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUPeople.h; sourceTree = "<group>"; };
+		1DA900F51E900FBD001EA850 /* WUPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUPeople.m; sourceTree = "<group>"; };
+		1DA900F71E90129B001EA850 /* WUMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUMedia.h; sourceTree = "<group>"; };
+		1DA900F81E90129B001EA850 /* WUMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUMedia.m; sourceTree = "<group>"; };
+		1DA900FA1E9016E1001EA850 /* WUMediaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUMediaInfo.h; sourceTree = "<group>"; };
+		1DA900FB1E9016E1001EA850 /* WUMediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUMediaInfo.m; sourceTree = "<group>"; };
+		1DA900FD1E90177B001EA850 /* WULanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WULanguage.h; sourceTree = "<group>"; };
+		1DA900FE1E90177B001EA850 /* WULanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WULanguage.m; sourceTree = "<group>"; };
+		1DA901001E901809001EA850 /* WUQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUQuality.h; sourceTree = "<group>"; };
+		1DA901011E901809001EA850 /* WUQuality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUQuality.m; sourceTree = "<group>"; };
+		1DA901031E901845001EA850 /* WUVideoQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUVideoQuality.h; sourceTree = "<group>"; };
+		1DA901041E901845001EA850 /* WUVideoQuality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUVideoQuality.m; sourceTree = "<group>"; };
+		1DA901061E90185C001EA850 /* WUAudioQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUAudioQuality.h; sourceTree = "<group>"; };
+		1DA901071E90185C001EA850 /* WUAudioQuality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUAudioQuality.m; sourceTree = "<group>"; };
+		1DA901091E901883001EA850 /* WUDRMType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDRMType.h; sourceTree = "<group>"; };
+		1DA9010A1E901883001EA850 /* WUDRMType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDRMType.m; sourceTree = "<group>"; };
+		1DA9010C1E90198E001EA850 /* WUContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUContent.h; sourceTree = "<group>"; };
+		1DA9010D1E90198E001EA850 /* WUContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUContent.m; sourceTree = "<group>"; };
+		1DA9010F1E901A71001EA850 /* movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie.json; sourceTree = "<group>"; };
+		1DA901121E901AAD001EA850 /* WUMovieMappingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUMovieMappingSpec.m; sourceTree = "<group>"; };
+		1DA901141E902164001EA850 /* WUAudioQuality+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUAudioQuality+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA901151E902164001EA850 /* WUAudioQuality+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUAudioQuality+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA9011A1E902204001EA850 /* WUDRMType+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUDRMType+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA9011B1E902204001EA850 /* WUDRMType+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUDRMType+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA9011D1E90221A001EA850 /* WULanguage+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WULanguage+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA9011E1E90221A001EA850 /* WULanguage+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WULanguage+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA901201E90222C001EA850 /* WUMedia+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUMedia+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA901211E90222C001EA850 /* WUMedia+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUMedia+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA901231E902239001EA850 /* WUMediaInfo+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUMediaInfo+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA901241E902239001EA850 /* WUMediaInfo+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUMediaInfo+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA901261E902249001EA850 /* WUMovie+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUMovie+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA901271E902249001EA850 /* WUMovie+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUMovie+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA901291E902267001EA850 /* WUPeople+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUPeople+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA9012A1E902267001EA850 /* WUPeople+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUPeople+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA9012C1E902277001EA850 /* WUVideoQuality+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUVideoQuality+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA9012D1E902277001EA850 /* WUVideoQuality+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUVideoQuality+MappedEntity.m"; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +281,7 @@
 		1D78A4E81E8FB6ED00C0790A /* mappings */ = {
 			isa = PBXGroup;
 			children = (
+				1DA901121E901AAD001EA850 /* WUMovieMappingSpec.m */,
 				1D78A4FD1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m */,
 				1D78A4EA1E8FB75100C0790A /* WUStreamingMappingSpec.m */,
 				1D2B36491E9001DB0009316C /* WUTVShowMappingSpec.m */,
@@ -251,14 +310,28 @@
 		1D78A5011E8FC0D800C0790A /* mappings */ = {
 			isa = PBXGroup;
 			children = (
+				1DA901141E902164001EA850 /* WUAudioQuality+MappedEntity.h */,
+				1DA901151E902164001EA850 /* WUAudioQuality+MappedEntity.m */,
 				1D2B364B1E9007C90009316C /* WUClassification+MappedEntity.h */,
 				1D2B364C1E9007C90009316C /* WUClassification+MappedEntity.m */,
+				1DA9011A1E902204001EA850 /* WUDRMType+MappedEntity.h */,
+				1DA9011B1E902204001EA850 /* WUDRMType+MappedEntity.m */,
 				1D2B364E1E9008530009316C /* WUIcon+MappedEntity.h */,
 				1D2B364F1E9008530009316C /* WUIcon+MappedEntity.m */,
 				1D2B36511E9008A00009316C /* WUImage+MappedEntity.h */,
 				1D2B36521E9008A00009316C /* WUImage+MappedEntity.m */,
 				1D2B36541E9008EA0009316C /* WUGenre+MappedEntity.h */,
 				1D2B36551E9008EA0009316C /* WUGenre+MappedEntity.m */,
+				1DA9011D1E90221A001EA850 /* WULanguage+MappedEntity.h */,
+				1DA9011E1E90221A001EA850 /* WULanguage+MappedEntity.m */,
+				1DA901201E90222C001EA850 /* WUMedia+MappedEntity.h */,
+				1DA901211E90222C001EA850 /* WUMedia+MappedEntity.m */,
+				1DA901231E902239001EA850 /* WUMediaInfo+MappedEntity.h */,
+				1DA901241E902239001EA850 /* WUMediaInfo+MappedEntity.m */,
+				1DA901261E902249001EA850 /* WUMovie+MappedEntity.h */,
+				1DA901271E902249001EA850 /* WUMovie+MappedEntity.m */,
+				1DA901291E902267001EA850 /* WUPeople+MappedEntity.h */,
+				1DA9012A1E902267001EA850 /* WUPeople+MappedEntity.m */,
 				1D2B36571E9009E40009316C /* WUScore+MappedEntity.h */,
 				1D2B36581E9009E40009316C /* WUScore+MappedEntity.m */,
 				1D2B365A1E900A5D0009316C /* WUSeason+MappedEntity.h */,
@@ -271,6 +344,8 @@
 				1D1C23681E8FEC9A00B431CF /* WUStreaming+MappedEntity.m */,
 				1D2B36601E900C080009316C /* WUTVShow+MappedEntity.h */,
 				1D2B36611E900C080009316C /* WUTVShow+MappedEntity.m */,
+				1DA9012C1E902277001EA850 /* WUVideoQuality+MappedEntity.h */,
+				1DA9012D1E902277001EA850 /* WUVideoQuality+MappedEntity.m */,
 			);
 			path = mappings;
 			sourceTree = "<group>";
@@ -399,16 +474,34 @@
 			isa = PBXGroup;
 			children = (
 				1D78A5011E8FC0D800C0790A /* mappings */,
+				1DA901061E90185C001EA850 /* WUAudioQuality.h */,
+				1DA901071E90185C001EA850 /* WUAudioQuality.m */,
 				1D2B36311E8FF7C90009316C /* WUClassification.h */,
 				1D2B36321E8FF7C90009316C /* WUClassification.m */,
+				1DA9010C1E90198E001EA850 /* WUContent.h */,
+				1DA9010D1E90198E001EA850 /* WUContent.m */,
+				1DA901091E901883001EA850 /* WUDRMType.h */,
+				1DA9010A1E901883001EA850 /* WUDRMType.m */,
 				1D2B36371E8FFBB80009316C /* WUIcon.h */,
 				1D2B36381E8FFBB80009316C /* WUIcon.m */,
 				1D2B363A1E8FFDEF0009316C /* WUImage.h */,
 				1D2B363B1E8FFDEF0009316C /* WUImage.m */,
 				1D2B36341E8FF95C0009316C /* WUGenre.h */,
 				1D2B36351E8FF95C0009316C /* WUGenre.m */,
+				1DA900FD1E90177B001EA850 /* WULanguage.h */,
+				1DA900FE1E90177B001EA850 /* WULanguage.m */,
+				1DA900F71E90129B001EA850 /* WUMedia.h */,
+				1DA900F81E90129B001EA850 /* WUMedia.m */,
+				1DA900FA1E9016E1001EA850 /* WUMediaInfo.h */,
+				1DA900FB1E9016E1001EA850 /* WUMediaInfo.m */,
+				1DA900F11E900F18001EA850 /* WUMovie.h */,
+				1DA900F21E900F18001EA850 /* WUMovie.m */,
 				1D78A4E41E8FB30E00C0790A /* WUObject.h */,
 				1D78A4E51E8FB30E00C0790A /* WUObject.m */,
+				1DA900F41E900FBD001EA850 /* WUPeople.h */,
+				1DA900F51E900FBD001EA850 /* WUPeople.m */,
+				1DA901001E901809001EA850 /* WUQuality.h */,
+				1DA901011E901809001EA850 /* WUQuality.m */,
 				1D2B363D1E8FFE680009316C /* WUScore.h */,
 				1D2B363E1E8FFE680009316C /* WUScore.m */,
 				1D2B36431E8FFF560009316C /* WUSeason.h */,
@@ -421,6 +514,8 @@
 				1D78A4DF1E8FB27400C0790A /* WUStreaming.m */,
 				1D2B362E1E8FF2E60009316C /* WUTVShow.h */,
 				1D2B362F1E8FF2E60009316C /* WUTVShow.m */,
+				1DA901031E901845001EA850 /* WUVideoQuality.h */,
+				1DA901041E901845001EA850 /* WUVideoQuality.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -526,6 +621,7 @@
 		1D97273B1E8E6DD800E8917D /* mappings */ = {
 			isa = PBXGroup;
 			children = (
+				1DA9010F1E901A71001EA850 /* movie.json */,
 				1D78A4FF1E8FC05A00C0790A /* streamInfo.json */,
 				1D1C236A1E8FED4A00B431CF /* streaming.json */,
 				1D2B36461E9001840009316C /* tvShow.json */,
@@ -742,6 +838,7 @@
 			files = (
 				1D1C236B1E8FED4A00B431CF /* streaming.json in Resources */,
 				1D78A5001E8FC05A00C0790A /* streamInfo.json in Resources */,
+				1DA901101E901A71001EA850 /* movie.json in Resources */,
 				1D2B36471E9001840009316C /* tvShow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -856,30 +953,48 @@
 				1D9727491E8ECE9C00E8917D /* INLogFormatter.m in Sources */,
 				1D78A5051E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m in Sources */,
 				1D2B363C1E8FFDEF0009316C /* WUImage.m in Sources */,
+				1DA901021E901809001EA850 /* WUQuality.m in Sources */,
+				1DA901161E902164001EA850 /* WUAudioQuality+MappedEntity.m in Sources */,
 				1D78A4E61E8FB30E00C0790A /* WUObject.m in Sources */,
 				1D9726DF1E8E624D00E8917D /* main.m in Sources */,
 				1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */,
 				1D2B36531E9008A00009316C /* WUImage+MappedEntity.m in Sources */,
 				1D2B36331E8FF7C90009316C /* WUClassification.m in Sources */,
 				1D2B36391E8FFBB80009316C /* WUIcon.m in Sources */,
+				1DA901251E902239001EA850 /* WUMediaInfo+MappedEntity.m in Sources */,
+				1DA900F61E900FBD001EA850 /* WUPeople.m in Sources */,
 				1D2B36421E8FFEB40009316C /* WUSite.m in Sources */,
 				1D2B36301E8FF2E60009316C /* WUTVShow.m in Sources */,
+				1DA9010E1E90198E001EA850 /* WUContent.m in Sources */,
+				1DA900F91E90129B001EA850 /* WUMedia.m in Sources */,
+				1DA9010B1E901883001EA850 /* WUDRMType.m in Sources */,
+				1DA9012E1E902277001EA850 /* WUVideoQuality+MappedEntity.m in Sources */,
 				1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */,
 				1D2B36621E900C080009316C /* WUTVShow+MappedEntity.m in Sources */,
 				1D78A4E01E8FB27400C0790A /* WUStreaming.m in Sources */,
 				1D2B365F1E900A6C0009316C /* WUSite+MappedEntity.m in Sources */,
 				1D78A4E31E8FB28400C0790A /* WUStreamInfo.m in Sources */,
 				1D2B365C1E900A5D0009316C /* WUSeason+MappedEntity.m in Sources */,
+				1DA900FF1E90177B001EA850 /* WULanguage.m in Sources */,
+				1DA901221E90222C001EA850 /* WUMedia+MappedEntity.m in Sources */,
 				1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */,
+				1DA900FC1E9016E1001EA850 /* WUMediaInfo.m in Sources */,
 				1D1C23631E8FCB4300B431CF /* WUService.m in Sources */,
+				1DA901081E90185C001EA850 /* WUAudioQuality.m in Sources */,
 				1D78A4F81E8FBB9000C0790A /* WUAssembly.m in Sources */,
 				1D1C23661E8FCB9C00B431CF /* RKObjectManager+WuakiConfiguration.m in Sources */,
 				1D2B363F1E8FFE680009316C /* WUScore.m in Sources */,
+				1DA9012B1E902267001EA850 /* WUPeople+MappedEntity.m in Sources */,
+				1DA901051E901845001EA850 /* WUVideoQuality.m in Sources */,
 				1D2B36561E9008EA0009316C /* WUGenre+MappedEntity.m in Sources */,
 				1D2B364D1E9007C90009316C /* WUClassification+MappedEntity.m in Sources */,
+				1DA9011C1E902204001EA850 /* WUDRMType+MappedEntity.m in Sources */,
 				1D1C23691E8FEC9A00B431CF /* WUStreaming+MappedEntity.m in Sources */,
+				1DA900F31E900F18001EA850 /* WUMovie.m in Sources */,
 				1D2B36501E9008530009316C /* WUIcon+MappedEntity.m in Sources */,
+				1DA9011F1E90221A001EA850 /* WULanguage+MappedEntity.m in Sources */,
 				1D2B36361E8FF95C0009316C /* WUGenre.m in Sources */,
+				1DA901281E902249001EA850 /* WUMovie+MappedEntity.m in Sources */,
 				1D2B36591E9009E40009316C /* WUScore+MappedEntity.m in Sources */,
 				1D2B36451E8FFF560009316C /* WUSeason.m in Sources */,
 				1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */,
@@ -894,6 +1009,7 @@
 				1D78A4EB1E8FB75100C0790A /* WUStreamingMappingSpec.m in Sources */,
 				1D2B364A1E9001DB0009316C /* WUTVShowMappingSpec.m in Sources */,
 				1D78A4EF1E8FB80F00C0790A /* INRestKitHelper.m in Sources */,
+				1DA901131E901AAD001EA850 /* WUMovieMappingSpec.m in Sources */,
 				1D78A4FB1E8FBD3000C0790A /* WUTestAssembly.m in Sources */,
 				1D78A4FE1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m in Sources */,
 			);

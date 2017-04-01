@@ -21,8 +21,6 @@
 SPEC_BEGIN(WUStreamInfoMappingSpec)
 
 describe(@"WUStreamInfo mapping", ^{
-    registerMatchers(@"RK");
-    
     __block INRestKitHelper *restkitHelper;
     __block RKMappingTest *mappingTest;
     

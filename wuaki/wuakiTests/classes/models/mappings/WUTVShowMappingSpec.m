@@ -28,8 +28,6 @@
 SPEC_BEGIN(WUTVShowMappingSpec)
 
 describe(@"WUTVShow mapping", ^{
-    registerMatchers(@"RK");
-    
     __block INRestKitHelper *restkitHelper;
     __block RKMappingTest *mappingTest;
     

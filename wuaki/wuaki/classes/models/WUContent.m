@@ -1,5 +1,5 @@
 //
-//  WUTVShow.h
+//  WUContent.m
 //  wuaki
 //
 //  Created by José González Gómez on 1/4/17.
@@ -9,6 +9,5 @@
 #import "WUContent.h"
 
 
-@interface WUTVShow : WUContent
-@property (nonatomic, copy  ) NSArray *seasons;
+@implementation WUContent
 @end
