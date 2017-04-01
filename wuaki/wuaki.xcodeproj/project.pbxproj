@@ -26,6 +26,7 @@
 		1D9727321E8E6DA600E8917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272B1E8E6DA600E8917D /* LaunchScreen.storyboard */; };
 		1D9727331E8E6DA600E8917D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272D1E8E6DA600E8917D /* Main.storyboard */; };
 		1D9727441E8E6DEC00E8917D /* wuakiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727401E8E6DEC00E8917D /* wuakiUITests.m */; };
+		1D9727491E8ECE9C00E8917D /* INLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727481E8ECE9C00E8917D /* INLogFormatter.m */; };
 		1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
@@ -85,6 +86,8 @@
 		1D9727391E8E6DD800E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9727401E8E6DEC00E8917D /* wuakiUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuakiUITests.m; sourceTree = "<group>"; };
 		1D9727431E8E6DEC00E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9727471E8ECE9C00E8917D /* INLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INLogFormatter.h; sourceTree = "<group>"; };
+		1D9727481E8ECE9C00E8917D /* INLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INLogFormatter.m; sourceTree = "<group>"; };
 		1D97274B1E8ED11400E8917D /* INMappedEntitiesCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappedEntitiesCatalog.h; sourceTree = "<group>"; };
 		1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INMappedEntitiesCatalog.m; sourceTree = "<group>"; };
 		1D97274D1E8ED11400E8917D /* INMappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappedEntity.h; sourceTree = "<group>"; };
@@ -290,6 +293,7 @@
 		1D97271D1E8E6D9E00E8917D /* helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1D9727461E8ECE5F00E8917D /* logging */,
 				1D97274A1E8ED09000E8917D /* mappings */,
 			);
 			path = helpers;
@@ -459,6 +463,15 @@
 				1D9727431E8E6DEC00E8917D /* Info.plist */,
 			);
 			path = configuration;
+			sourceTree = "<group>";
+		};
+		1D9727461E8ECE5F00E8917D /* logging */ = {
+			isa = PBXGroup;
+			children = (
+				1D9727471E8ECE9C00E8917D /* INLogFormatter.h */,
+				1D9727481E8ECE9C00E8917D /* INLogFormatter.m */,
+			);
+			path = logging;
 			sourceTree = "<group>";
 		};
 		1D97274A1E8ED09000E8917D /* mappings */ = {
@@ -732,6 +745,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9727491E8ECE9C00E8917D /* INLogFormatter.m in Sources */,
 				1D78A5051E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m in Sources */,
 				1D9726DF1E8E624D00E8917D /* main.m in Sources */,
 				1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */,
