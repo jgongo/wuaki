@@ -16,6 +16,7 @@
 		1D9727331E8E6DA600E8917D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272D1E8E6DA600E8917D /* Main.storyboard */; };
 		1D9727361E8E6DD100E8917D /* wuakiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727351E8E6DD100E8917D /* wuakiTests.m */; };
 		1D9727441E8E6DEC00E8917D /* wuakiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727401E8E6DEC00E8917D /* wuakiUITests.m */; };
+		1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -57,6 +58,10 @@
 		1D9727391E8E6DD800E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9727401E8E6DEC00E8917D /* wuakiUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wuakiUITests.m; sourceTree = "<group>"; };
 		1D9727431E8E6DEC00E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D97274B1E8ED11400E8917D /* INMappedEntitiesCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappedEntitiesCatalog.h; sourceTree = "<group>"; };
+		1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INMappedEntitiesCatalog.m; sourceTree = "<group>"; };
+		1D97274D1E8ED11400E8917D /* INMappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappedEntity.h; sourceTree = "<group>"; };
+		1D97274E1E8ED11400E8917D /* INMappingCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMappingCatalog.h; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D78A5011E8FC0D800C0790A /* mappings */ = {
+			isa = PBXGroup;
+			children = (
+				1D78A5031E8FC14C00C0790A /* WUStreamInfo+MappedEntity.h */,
+				1D78A5041E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m */,
+			);
+			path = mappings;
+			sourceTree = "<group>";
+		};
 		1D9726D11E8E624D00E8917D = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +212,7 @@
 		1D97271D1E8E6D9E00E8917D /* helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1D97274A1E8ED09000E8917D /* mappings */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -352,6 +367,17 @@
 				1D9727431E8E6DEC00E8917D /* Info.plist */,
 			);
 			path = configuration;
+			sourceTree = "<group>";
+		};
+		1D97274A1E8ED09000E8917D /* mappings */ = {
+			isa = PBXGroup;
+			children = (
+				1D97274B1E8ED11400E8917D /* INMappedEntitiesCatalog.h */,
+				1D97274C1E8ED11400E8917D /* INMappedEntitiesCatalog.m */,
+				1D97274D1E8ED11400E8917D /* INMappedEntity.h */,
+				1D97274E1E8ED11400E8917D /* INMappingCatalog.h */,
+			);
+			path = mappings;
 			sourceTree = "<group>";
 		};
 		F1C7315F18EB1C8F4ECD11F5 /* Pods */ = {
@@ -615,6 +641,7 @@
 				1D9726DF1E8E624D00E8917D /* main.m in Sources */,
 				1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */,
 				1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */,
+				1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */,
 				1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
