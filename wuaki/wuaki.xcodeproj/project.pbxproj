@@ -10,8 +10,14 @@
 		1D1C23601E8FCA5200B431CF /* WUAssemblySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C235F1E8FCA5200B431CF /* WUAssemblySpec.m */; };
 		1D1C23631E8FCB4300B431CF /* WUService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C23621E8FCB4300B431CF /* WUService.m */; };
 		1D1C23661E8FCB9C00B431CF /* RKObjectManager+WuakiConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C23651E8FCB9C00B431CF /* RKObjectManager+WuakiConfiguration.m */; };
+		1D78A4E31E8FB28400C0790A /* WUStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A4E21E8FB28400C0790A /* WUStreamInfo.m */; };
+		1D78A4EF1E8FB80F00C0790A /* INRestKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A4EE1E8FB80F00C0790A /* INRestKitHelper.m */; };
 		1D78A4F11E8FBB1200C0790A /* wuaki.properties in Resources */ = {isa = PBXBuildFile; fileRef = 1D78A4F01E8FBB1200C0790A /* wuaki.properties */; };
 		1D78A4F81E8FBB9000C0790A /* WUAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A4F71E8FBB9000C0790A /* WUAssembly.m */; };
+		1D78A4FB1E8FBD3000C0790A /* WUTestAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A4FA1E8FBD3000C0790A /* WUTestAssembly.m */; };
+		1D78A4FE1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A4FD1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m */; };
+		1D78A5001E8FC05A00C0790A /* streamInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D78A4FF1E8FC05A00C0790A /* streamInfo.json */; };
+		1D78A5051E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A5041E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m */; };
 		1D9726DF1E8E624D00E8917D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9726DE1E8E624D00E8917D /* main.m */; };
 		1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727161E8E6D9E00E8917D /* AppDelegate.m */; };
 		1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727191E8E6D9E00E8917D /* DetailViewController.m */; };
@@ -49,9 +55,19 @@
 		1D1C23621E8FCB4300B431CF /* WUService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUService.m; sourceTree = "<group>"; };
 		1D1C23641E8FCB9C00B431CF /* RKObjectManager+WuakiConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RKObjectManager+WuakiConfiguration.h"; sourceTree = "<group>"; };
 		1D1C23651E8FCB9C00B431CF /* RKObjectManager+WuakiConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RKObjectManager+WuakiConfiguration.m"; sourceTree = "<group>"; };
+		1D78A4E11E8FB28400C0790A /* WUStreamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUStreamInfo.h; sourceTree = "<group>"; };
+		1D78A4E21E8FB28400C0790A /* WUStreamInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUStreamInfo.m; sourceTree = "<group>"; };
+		1D78A4ED1E8FB80F00C0790A /* INRestKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRestKitHelper.h; sourceTree = "<group>"; };
+		1D78A4EE1E8FB80F00C0790A /* INRestKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRestKitHelper.m; sourceTree = "<group>"; };
 		1D78A4F01E8FBB1200C0790A /* wuaki.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wuaki.properties; sourceTree = "<group>"; };
 		1D78A4F61E8FBB9000C0790A /* WUAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUAssembly.h; sourceTree = "<group>"; };
 		1D78A4F71E8FBB9000C0790A /* WUAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUAssembly.m; sourceTree = "<group>"; };
+		1D78A4F91E8FBD3000C0790A /* WUTestAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUTestAssembly.h; sourceTree = "<group>"; };
+		1D78A4FA1E8FBD3000C0790A /* WUTestAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUTestAssembly.m; sourceTree = "<group>"; };
+		1D78A4FD1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUStreamInfoMappingSpec.m; sourceTree = "<group>"; };
+		1D78A4FF1E8FC05A00C0790A /* streamInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = streamInfo.json; sourceTree = "<group>"; };
+		1D78A5031E8FC14C00C0790A /* WUStreamInfo+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUStreamInfo+MappedEntity.h"; sourceTree = "<group>"; };
+		1D78A5041E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUStreamInfo+MappedEntity.m"; sourceTree = "<group>"; };
 		1D9726DA1E8E624D00E8917D /* wuaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wuaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9726DE1E8E624D00E8917D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D9726F61E8E624E00E8917D /* wuakiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wuakiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +142,32 @@
 				1D1C235F1E8FCA5200B431CF /* WUAssemblySpec.m */,
 			);
 			path = assembly;
+			sourceTree = "<group>";
+		};
+		1D78A4E71E8FB62500C0790A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1D78A4E81E8FB6ED00C0790A /* mappings */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1D78A4E81E8FB6ED00C0790A /* mappings */ = {
+			isa = PBXGroup;
+			children = (
+				1D78A4FD1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m */,
+				1D78A4EA1E8FB75100C0790A /* WUStreamingMappingSpec.m */,
+			);
+			path = mappings;
+			sourceTree = "<group>";
+		};
+		1D78A4EC1E8FB7D800C0790A /* test-helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1D78A4ED1E8FB80F00C0790A /* INRestKitHelper.h */,
+				1D78A4EE1E8FB80F00C0790A /* INRestKitHelper.m */,
+			);
+			path = "test-helpers";
 			sourceTree = "<group>";
 		};
 		1D78A4F21E8FBB5500C0790A /* assembly */ = {
@@ -268,6 +310,9 @@
 		1D97271F1E8E6D9E00E8917D /* models */ = {
 			isa = PBXGroup;
 			children = (
+				1D78A5011E8FC0D800C0790A /* mappings */,
+				1D78A4E11E8FB28400C0790A /* WUStreamInfo.h */,
+				1D78A4E21E8FB28400C0790A /* WUStreamInfo.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -335,6 +380,10 @@
 			isa = PBXGroup;
 			children = (
 				1D1C235C1E8FCA1C00B431CF /* logic */,
+				1D78A4E71E8FB62500C0790A /* models */,
+				1D78A4EC1E8FB7D800C0790A /* test-helpers */,
+				1D78A4F91E8FBD3000C0790A /* WUTestAssembly.h */,
+				1D78A4FA1E8FBD3000C0790A /* WUTestAssembly.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -369,6 +418,7 @@
 		1D97273B1E8E6DD800E8917D /* mappings */ = {
 			isa = PBXGroup;
 			children = (
+				1D78A4FF1E8FC05A00C0790A /* streamInfo.json */,
 			);
 			path = mappings;
 			sourceTree = "<group>";
@@ -571,6 +621,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D78A5001E8FC05A00C0790A /* streamInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,9 +732,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D78A5051E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m in Sources */,
 				1D9726DF1E8E624D00E8917D /* main.m in Sources */,
 				1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */,
 				1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */,
+				1D78A4E31E8FB28400C0790A /* WUStreamInfo.m in Sources */,
 				1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */,
 				1D1C23631E8FCB4300B431CF /* WUService.m in Sources */,
 				1D78A4F81E8FBB9000C0790A /* WUAssembly.m in Sources */,
@@ -697,7 +750,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D1C23601E8FCA5200B431CF /* WUAssemblySpec.m in Sources */,
+				1D78A4EF1E8FB80F00C0790A /* INRestKitHelper.m in Sources */,
 				1D78A4FB1E8FBD3000C0790A /* WUTestAssembly.m in Sources */,
+				1D78A4FE1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
