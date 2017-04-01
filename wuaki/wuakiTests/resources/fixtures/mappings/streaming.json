@@ -1,0 +1,11 @@
+{
+    "type": "streamings",
+    "id": "63b63ab5-34c3-4e9f-be7a-52833e761b33",
+    "heartbeat": {},
+    "stream_infos": [{
+                     "player": "web:PD-NONE",
+                     "url": "https://prod-stpeter-pmd.limelight.cdn.wuaki.tv/c/b/4/cb4ba53d45b1a3a11ab589c9aa02dc69-mc-0-95-0-0_SD_TRAILER_PAR_1_1.mp4?e=1491213272&h=aeaed75f23b8c6ddc90feb1a04c859cd",
+                     "cdn": "AKAMAI",
+                     "wrid": "7663f5fd716ccadf98651440281661f9"
+                     }]
+}
