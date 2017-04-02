@@ -10,6 +10,12 @@
 #import "INMappingCatalog.h"
 #import <objc/runtime.h>
 
+#import "WUFrontPage.h"
+#import "WUError.h"
+
+
+static NSString *const PATH_FRONT_PAGE = @"gardens/portada";
+
 
 @implementation RKObjectManager (WuakiConfiguration)
 
@@ -22,6 +28,18 @@
 }
 
 - (void)configure {
+    self.requestSerializationMIMEType = @"application/json";
+    
+    // Errors
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUError class]] method:RKRequestMethodGET    pathPattern:nil keyPath:@"errors" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassClientError)]];
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUError class]] method:RKRequestMethodPOST   pathPattern:nil keyPath:@"errors" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassClientError)]];
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUError class]] method:RKRequestMethodPUT    pathPattern:nil keyPath:@"errors" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassClientError)]];
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUError class]] method:RKRequestMethodDELETE pathPattern:nil keyPath:@"errors" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassClientError)]];
+    
+    // Front page
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUFrontPage class]] method:RKRequestMethodGET pathPattern:PATH_FRONT_PAGE keyPath:@"data" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)]];
+    [self.router.routeSet addRoute:[RKRoute routeWithClass:[WUFrontPage class] pathPattern:PATH_FRONT_PAGE method:RKRequestMethodGET]];
+    
 }
 
 @end

@@ -1,0 +1,9 @@
+{
+    "errors": [
+               {
+               "field": "user_status",
+               "code": "exception.missing_user_status",
+               "message": "Lo sentimos, ha ocurrido un error interno con algún parámetro"
+               }
+               ]
+}

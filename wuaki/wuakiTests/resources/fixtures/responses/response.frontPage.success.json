@@ -1,0 +1,3121 @@
+{
+    "data": {
+        "type": "gardens",
+        "id": "portada",
+        "numerical_id": 1,
+        "name": "Portada",
+        "category": "",
+        "lists": [
+                  {
+                  "type": "lists",
+                  "id": "wuaki-estrenos",
+                  "numerical_id": 2157,
+                  "name": "Wuaki estrenos",
+                  "category": "rent",
+                  "short_name": "Wuaki estrenos",
+                  "content_type": "Movie",
+                  "additional_images": {},
+                  "contents": {
+                  "data": [
+                           {
+                           "type": "movies",
+                           "id": "la-luz-de-mis-ojos",
+                           "numerical_id": 47664,
+                           "title": "La luz de mis ojos",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 0,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/47664/master/la-luz-de-mis-ojos-1483954870.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/73331/original/apple-of-my-eye-1483954853.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "cuando-tienes-17-anos",
+                           "numerical_id": 48122,
+                           "title": "Cuando tienes 17 años",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 3.65,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.2,
+                           "amount_of_votes": 42
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/48122/master/cuando-tienes-17-anos-1485773648.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/74189/original/cuando-tienes-17-anos-1485773676.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "ozzy",
+                           "numerical_id": 48106,
+                           "title": "Ozzy",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 2.75,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/48106/master/ozzy-1485536407.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/74170/original/ozzy-1485536469.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "acorralado-officer-down",
+                           "numerical_id": 48359,
+                           "title": "Acorralado (Officer Down)",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 4.05,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/48359/master/acorralado-officer-down-1485444300.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/73929/original/acorralado-officer-down-1485444425.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "fuego-en-el-mar",
+                           "numerical_id": 48104,
+                           "title": "Fuego en el mar",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 3.22,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/48104/master/fuego-en-el-mar-1486144382.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/73871/original/fuego-en-el-mar-1485355751.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "jota-de-saura",
+                           "numerical_id": 45314,
+                           "title": "Jota, de Saura",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 0,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 0,
+                           "amount_of_votes": 0
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/45314/master/jota-de-saura-1484759497.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/73540/original/jota-de-saura-1484759529.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "come-and-find-me",
+                           "numerical_id": 48357,
+                           "title": "Come and find me",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 3.15,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/48357/master/come-and-find-me-1485435239.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/73918/original/come-and-find-me-1485435263.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "sing-street",
+                           "numerical_id": 47951,
+                           "title": "Sing Street",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 4.1,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 8.1,
+                           "amount_of_votes": 408
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/47951/master/sing-street-1484656181.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/73510/original/sing-street-1484656228.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "canguros-en-apuros",
+                           "numerical_id": 48355,
+                           "title": "Canguros en apuros",
+                           "label": "No Disponible",
+                           "rating": {
+                           "average": 3.98,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.7,
+                           "amount_of_votes": 52
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/48355/master/canguros-en-apuros-adventures-in-babysitting-1485429619.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/73913/original/canguros-en-apuros-adventures-in-babysitting-1485429670.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "suburra",
+                           "numerical_id": 48354,
+                           "title": "Suburra",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 3.65,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/48354/master/suburra-1485426115.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/73909/original/suburra-1485426138.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "poder-mental",
+                           "numerical_id": 45242,
+                           "title": "Poder mental",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 4.88,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/45242/master/poder-mental-1484590804.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/73481/original/poder-mental-1485194144.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-valle-de-la-venganza-613ac389-7809-468c-849b-ec22ee859fc4",
+                           "numerical_id": 45305,
+                           "title": "El valle de la venganza",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 2.95,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.5,
+                           "amount_of_votes": 77
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/45305/master/el-valle-de-la-venganza-1483111217.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/73184/original/el-valle-de-la-venganza-1483111288.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "cerca-de-tu-casa",
+                           "numerical_id": 45311,
+                           "title": "Cerca de tu casa",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 0.5,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5,
+                           "amount_of_votes": 7
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/45311/master/cerca-de-tu-casa-1483982264.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/73367/original/cerca-de-tu-casa-1483982972.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-espera",
+                           "numerical_id": 45236,
+                           "title": "La espera",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 0,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 0,
+                           "amount_of_votes": 0
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/45236/master/la-espera-1483541601.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/73275/original/la-espera-1483541660.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-espejo-de-los-otros",
+                           "numerical_id": 45312,
+                           "title": "El Espejo de los Otros",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 1.75,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 3.5,
+                           "amount_of_votes": 2
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/45312/master/el-espejo-de-los-otros-1484143651.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/73393/original/el-espejo-de-los-otros-1484144151.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "rompiendo-las-reglas-3",
+                           "numerical_id": 37641,
+                           "title": "Rompiendo las reglas 3",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 5,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.1,
+                           "amount_of_votes": 48
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/37641/master/rompiendo-las-reglas-3-1469456771.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/65102/original/rompiendo-las-reglas-3-1469456816.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "mi-panaderia-en-brooklyn",
+                           "numerical_id": 45232,
+                           "title": "Mi panaderia en Brooklyn",
+                           "label": "No Disponible",
+                           "rating": {
+                           "average": 2.3,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5,
+                           "amount_of_votes": 17
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/45232/master/mi-panaderia-en-brooklyn-1480502764.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/72058/original/mi-panaderia-en-brooklyn-1480502798.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "en-el-bosque-990e0ec6-fd02-4651-afee-0dc1adaac555",
+                           "numerical_id": 45229,
+                           "title": "En el Bosque",
+                           "label": "No Disponible",
+                           "rating": {
+                           "average": 0.1,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 0,
+                           "amount_of_votes": 0
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/45229/master/en-el-bosque-1480500532.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/72005/original/en-el-bosque-1483971486.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "don-verdean",
+                           "numerical_id": 45307,
+                           "title": "Don Verdean",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 2,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 4,
+                           "amount_of_votes": 38
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/45307/master/don-verdean-1483116587.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/73186/original/don-verdean-1483116652.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "despues-de-nosotros",
+                           "numerical_id": 45310,
+                           "title": "Después de nosotros",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 2.65,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.9,
+                           "amount_of_votes": 23
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/45310/master/despues-de-nosotros-1483962762.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/73343/original/despues-de-nosotros-1483962816.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "pastel-de-pera-con-lavanda",
+                           "numerical_id": 45244,
+                           "title": "Pastel de pera con lavanda",
+                           "label": "No Disponible",
+                           "rating": {
+                           "average": 3.4,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.8,
+                           "amount_of_votes": 72
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/45244/master/pastel-de-pera-con-lavanda-1480699147.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/72186/original/pastel-de-pera-con-lavanda-1480699206.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "mi-vida-a-los-sesenta",
+                           "numerical_id": 44890,
+                           "title": "Mi Vida a los Sesenta",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 2.25,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 4.3,
+                           "amount_of_votes": 6
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/44890/master/mi-vida-a-los-sesenta-1483374210.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/73216/original/mi-vida-a-los-sesenta-1483374267.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "manhattan-nocturno",
+                           "numerical_id": 45241,
+                           "title": "Manhattan Nocturno",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 3.05,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.9,
+                           "amount_of_votes": 25
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/45241/master/manhattan-nocturno-1480695957.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/72185/original/manhattan-nocturno-1480696059.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "desaparecida",
+                           "numerical_id": 45243,
+                           "title": "Desaparecida",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 0.09,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 0,
+                           "amount_of_votes": 0
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/45243/master/desaparecida-1480699602.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/72187/original/desaparecida-1480699654.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "si-dios-quiere",
+                           "numerical_id": 40705,
+                           "title": "Si Dios Quiere",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 3.44,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.6,
+                           "amount_of_votes": 78
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/40705/master/si-dios-quiere-1474879821.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/67717/original/si-dios-quiere-1474879865.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "10-anos-y-divorciada",
+                           "numerical_id": 44888,
+                           "title": "10 Años y Divorciada",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 4,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.5,
+                           "amount_of_votes": 2
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/44888/master/10-anos-y-divorciada-1481111802.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/72238/original/10-anos-y-divorciada-1481111823.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-familia-fang",
+                           "numerical_id": 41223,
+                           "title": "La familia Fang",
+                           "label": "No Disponible",
+                           "rating": {
+                           "average": 2.95,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.8,
+                           "amount_of_votes": 53
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/41223/master/la-familia-fang-1480506279.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/72064/original/la-familia-fang-1480506316.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "7-diosas",
+                           "numerical_id": 40708,
+                           "title": "7 Diosas",
+                           "label": "3,99 €",
+                           "rating": {
+                           "average": 3.05,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7,
+                           "amount_of_votes": 4
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/40708/master/7-diosas-1475078448.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/67984/original/7-diosas-1475078487.jpeg",
+                           "ribbons": []
+                           }
+                           }
+                           ],
+                  "meta": {
+                  "pagination": {
+                  "page": 1,
+                  "count": 100,
+                  "per_page": 28,
+                  "offset": 0,
+                  "total_pages": 4
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "type": "lists",
+                  "id": "estrenos-en-compra",
+                  "numerical_id": 205,
+                  "name": "Estrenos en compra",
+                  "category": "est",
+                  "short_name": "En Compra",
+                  "content_type": "Movie",
+                  "additional_images": {},
+                  "contents": {
+                  "data": [
+                           {
+                           "type": "movies",
+                           "id": "star-wars-el-despertar-de-la-fuerza-a9f7cccf-7d1c-496f-a93b-c0fc07ec65ce",
+                           "numerical_id": 30400,
+                           "title": "Star Wars: El despertar de la Fuerza",
+                           "label": "7,99 €",
+                           "rating": {
+                           "average": 4.45,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.5,
+                           "amount_of_votes": 6210
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/30400/master/star-wars-el-despertar-de-la-fuerza-qc-1449056063.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/60118/original/star-wars-el-despertar-de-la-fuerza-a9f7cccf-7d1c-496f-a93b-c0fc07ec65ce-1464946859.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-renacido-the-revenant",
+                           "numerical_id": 31919,
+                           "title": "El Renacido (The Revenant)",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.97,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.2,
+                           "amount_of_votes": 4855
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/31919/master/el-renacido-the-revenant-1467704551.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/51988/original/el-renacido-the-revenant-pre-compra-1463729786.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "capitan-america-civil-war",
+                           "numerical_id": 34022,
+                           "title": "Capitán América: Civil War",
+                           "label": "7,99 €",
+                           "rating": {
+                           "average": 3.96,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.9,
+                           "amount_of_votes": 5052
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/34022/master/capitan-america-civil-war-qc-1460730180.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/66242/original/capitan-america-civil-war-1472542421.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "marte-the-martian",
+                           "numerical_id": 29013,
+                           "title": "Marte (The Martian)",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 4.18,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.6,
+                           "amount_of_votes": 5483
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/29013/master/marte-the-martian-1458149044.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/52707/original/marte-the-martian-1455091127.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-puente-de-los-espias",
+                           "numerical_id": 32621,
+                           "title": "El puente de los espías",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.8,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.1,
+                           "amount_of_votes": 2048
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/32621/master/el-puente-de-los-espias-1457347080.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/72508/original/el-puente-de-los-espias-1481653720.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "zootropolis",
+                           "numerical_id": 34016,
+                           "title": "Zootrópolis",
+                           "label": "5,99 €",
+                           "rating": {
+                           "average": 4.05,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.6,
+                           "amount_of_votes": 3206
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/34016/master/zootropolis-1462964472.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/61933/original/zootropolis-1466406574.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "batman-v-superman-el-amanecer-de-la-justicia",
+                           "numerical_id": 32640,
+                           "title": "Batman v. Superman: El amanecer de la Justicia",
+                           "label": "11,99 €",
+                           "rating": {
+                           "average": 3.37,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.6,
+                           "amount_of_votes": 5181
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/32640/master/batman-v-superman-el-amanecer-de-la-justicia-1475224394.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/72515/original/batman-v-superman-el-amanecer-de-la-justicia-1481655329.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "deadpool-afc606cc-3efd-464f-9bd1-b96a3fbbc652",
+                           "numerical_id": 32624,
+                           "title": "Deadpool",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 4.53,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.3,
+                           "amount_of_votes": 7523
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/32624/master/deadpool-1465543079.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/63162/original/deadpool-afc606cc-3efd-464f-9bd1-b96a3fbbc652-1467971506.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "mad-max-furia-en-la-carretera",
+                           "numerical_id": 25728,
+                           "title": "Mad Max: Furia en la carretera",
+                           "label": "11,99 €",
+                           "rating": {
+                           "average": 4.02,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.2,
+                           "amount_of_votes": 7304
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/25728/master/mad-max-furia-en-la-carretera-1477476533.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/44562/original/mad-max-furia-en-la-carretera-1444301731.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "spotlight",
+                           "numerical_id": 34893,
+                           "title": "Spotlight",
+                           "label": "7,99 €",
+                           "rating": {
+                           "average": 4.14,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.8,
+                           "amount_of_votes": 2028
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/34893/master/spotlight-1461759576.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/61218/original/spotlight-1466180242.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-gran-apuesta",
+                           "numerical_id": 34491,
+                           "title": "La Gran Apuesta",
+                           "label": "11,99 €",
+                           "rating": {
+                           "average": 4.01,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.3,
+                           "amount_of_votes": 2004
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/34491/master/la-gran-apuesta-1460548802.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/60494/original/la-gran-apuesta-1460548873.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "creed-la-leyenda-de-rocky",
+                           "numerical_id": 34494,
+                           "title": "Creed: La leyenda de Rocky",
+                           "label": "13,99 €",
+                           "rating": {
+                           "average": 3.73,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.3,
+                           "amount_of_votes": 1483
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/34494/master/creed-la-leyenda-de-rocky-1460454101.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/60365/original/creed-la-leyenda-de-rocky-1463738117.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "carol",
+                           "numerical_id": 34900,
+                           "title": "Carol",
+                           "label": "8,99 €",
+                           "rating": {
+                           "average": 3.73,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.2,
+                           "amount_of_votes": 738
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/34900/master/carol-1462462871.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/61646/original/carol-1462463230.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-habitacion",
+                           "numerical_id": 38413,
+                           "title": "La habitación",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.94,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 8,
+                           "amount_of_votes": 2025
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/38413/master/la-habitacion-1464874114.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/62841/original/la-habitacion-1464874143.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "steve-jobs",
+                           "numerical_id": 34007,
+                           "title": "Steve Jobs",
+                           "label": "7,99 €",
+                           "rating": {
+                           "average": 3.34,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.8,
+                           "amount_of_votes": 1278
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/34007/master/steve-jobs-1458043197.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/55980/original/steve-jobs-1460356658.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-chica-danesa",
+                           "numerical_id": 35749,
+                           "title": "La chica danesa",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.74,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.3,
+                           "amount_of_votes": 1149
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/35749/master/la-chica-danesa-1460391711.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/60358/original/la-chica-danesa-1464330881.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "truman-4a1bc4ed-9d33-492b-bed2-4a11ce3fe25a",
+                           "numerical_id": 32771,
+                           "title": "Truman",
+                           "label": "8,99 €",
+                           "rating": {
+                           "average": 3.71,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.8,
+                           "amount_of_votes": 70
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/32771/master/truman-1455813128.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/53851/original/truman-4a1bc4ed-9d33-492b-bed2-4a11ce3fe25a-1463674628.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "ave-cesar",
+                           "numerical_id": 37578,
+                           "title": "¡Ave, César!",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.03,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.7,
+                           "amount_of_votes": 976
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/37578/master/ave-cesar-1464008878.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/62212/original/ave-cesar-1466415636.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "spectre-2ae71871-a6a0-41cc-985f-0d424623c2e1",
+                           "numerical_id": 34010,
+                           "title": "Spectre",
+                           "label": "13,99 €",
+                           "rating": {
+                           "average": 3.63,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.2,
+                           "amount_of_votes": 3709
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/34010/master/spectre-1462276246.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/54408/original/spectre-ok-wuaki-1456488869.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "cien-anos-de-perdon",
+                           "numerical_id": 37702,
+                           "title": "Cien años de perdón",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.28,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.6,
+                           "amount_of_votes": null
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/37702/master/cien-anos-de-perdon-1465928386.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/63287/original/cien-anos-de-perdon-1470126810.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "mejor-solteras",
+                           "numerical_id": 34103,
+                           "title": "Mejor... Solteras",
+                           "label": "13,99 €",
+                           "rating": {
+                           "average": 3.19,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.1,
+                           "amount_of_votes": null
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/34103/master/mejor-solteras-1464617351.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/62675/original/mejor-solteras-1464617376.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-verdad-duele",
+                           "numerical_id": 33236,
+                           "title": "La verdad duele",
+                           "label": "6,99 €",
+                           "rating": {
+                           "average": 3.32,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7,
+                           "amount_of_votes": 638
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/33236/master/la-verdad-duele-1464260198.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/62186/original/la-verdad-duele-1465802885.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "palmeras-en-la-nieve",
+                           "numerical_id": 32642,
+                           "title": "Palmeras en la nieve",
+                           "label": "13,99 €",
+                           "rating": {
+                           "average": 3.54,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.1,
+                           "amount_of_votes": 76
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/32642/master/palmeras-en-la-nieve-1477476513.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/56921/original/palmeras-en-la-nieve-1463671262.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "las-cronicas-de-blancanieves-el-cazador-y-la-reina-del-hielo",
+                           "numerical_id": 38642,
+                           "title": "Las crónicas de Blancanieves: El cazador y la reina del hielo",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 2.96,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.8,
+                           "amount_of_votes": 1043
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/38642/master/las-cronicas-de-blancanieves-el-cazador-y-la-reina-del-hielo-1467645641.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/64630/original/las-cronicas-de-blancanieves-el-cazador-y-la-reina-del-hielo-1470302610.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-libro-de-la-selva-the-jungle-book-bonus",
+                           "numerical_id": 34020,
+                           "title": "El libro de la Selva (The Jungle Book) - (Bonus)",
+                           "label": "11,99 €",
+                           "rating": {
+                           "average": 3.12,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.8,
+                           "amount_of_votes": null
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/34020/master/el-libro-de-la-selva-the-jungle-book-incluye-extras-1488887555.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/65673/original/el-libro-de-la-selva-the-jungle-book-incluye-extras-1472110651.jpeg",
+                           "ribbons": [
+                                       {
+                                       "type": "ribbons",
+                                       "id": "232",
+                                       "numerical_id": 232,
+                                       "name": "bonus-apiv3",
+                                       "color": "#b10a2b",
+                                       "position": "top",
+                                       "localized_name": "INCLUYE EXTRAS",
+                                       "image": null
+                                       }
+                                       ]
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "brooklyn",
+                           "numerical_id": 37631,
+                           "title": "Brooklyn",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.86,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.3,
+                           "amount_of_votes": 962
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/37631/master/brooklyn-1464122455.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/62412/original/brooklyn-1464122487.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "warcraft-el-origen",
+                           "numerical_id": 40998,
+                           "title": "Warcraft: el origen",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.48,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.3,
+                           "amount_of_votes": 1611
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/40998/master/warcraft-el-origen-1474891724.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/67730/original/warcraft-el-origen-1475230278.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-regalo",
+                           "numerical_id": 38162,
+                           "title": "El regalo",
+                           "label": "9,99 €",
+                           "rating": {
+                           "average": 3.51,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.6,
+                           "amount_of_votes": 835
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/38162/master/el-regalo-1467025611.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/64106/original/el-regalo-1469606313.jpeg",
+                           "ribbons": []
+                           }
+                           }
+                           ],
+                  "meta": {
+                  "pagination": {
+                  "page": 1,
+                  "count": 162,
+                  "per_page": 28,
+                  "offset": 0,
+                  "total_pages": 6
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "type": "lists",
+                  "id": "reestrenos-desde-1-99",
+                  "numerical_id": 1789,
+                  "name": "Reestrenos desde 1,99€",
+                  "category": "rent",
+                  "short_name": "Reestrenos",
+                  "content_type": "Movie",
+                  "additional_images": {},
+                  "contents": {
+                  "data": [
+                           {
+                           "type": "movies",
+                           "id": "aloha",
+                           "numerical_id": 27381,
+                           "title": "Aloha",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 2.67,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.1,
+                           "amount_of_votes": 568
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/27381/master/aloha-1454522458.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/44772/original/aloha-1440588657.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "los-pinguinos-de-madagascar",
+                           "numerical_id": 22339,
+                           "title": "Los pingüinos de Madagascar",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.57,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.5,
+                           "amount_of_votes": 1057
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/22339/master/los-pinguinos-de-madagascar-1434969525.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/33305/original/los-pinguinos-de-madagascar-1425386683.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-serie-divergente-insurgente",
+                           "numerical_id": 25945,
+                           "title": "La serie Divergente: Insurgente",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.63,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.2,
+                           "amount_of_votes": 2872
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/25945/master/la-serie-divergente-insurgente-1460571126.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/41393/original/la-serie-divergente-insurgente-1447234206.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "irrational-man",
+                           "numerical_id": 31704,
+                           "title": "Irrational Man",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.24,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.2,
+                           "amount_of_votes": 419
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/31704/master/irrational-man-1454054747.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/50916/original/irrational-man-1452266576.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-ultimo-cazador-de-brujas",
+                           "numerical_id": 31708,
+                           "title": "El último cazador de brujas",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.13,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.6,
+                           "amount_of_votes": 1039
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/31708/master/el-ultimo-cazador-de-brujas-1454331308.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/52210/original/el-ultimo-cazador-de-brujas-1457433428.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "como-se-escribe-amor",
+                           "numerical_id": 23007,
+                           "title": "¿Como se escribe amor?",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.07,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.8,
+                           "amount_of_votes": 156
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/23007/master/como-se-escribe-amor-1441091051.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/38572/original/como-se-escribe-amor-1431508457.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-gran-seduccion",
+                           "numerical_id": 21143,
+                           "title": "La Gran Seducción",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.51,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.6,
+                           "amount_of_votes": 89
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/21143/master/la-gran-seduccion-1431958022.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/30378/original/la-gran-seduccion-1420459663.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "golpe-de-estado",
+                           "numerical_id": 31705,
+                           "title": "Golpe de Estado",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.71,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.7,
+                           "amount_of_votes": 618
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/31705/master/golpe-de-estado-1453891997.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/52036/original/golpe-de-estado-1453997767.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "exodus-dioses-y-reyes",
+                           "numerical_id": 22340,
+                           "title": "Exodus: Dioses y Reyes",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.25,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.6,
+                           "amount_of_votes": 1575
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/22340/master/exodus-dioses-y-reyes-1435566950.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/33660/original/exodus-gods-and-kings-1425895815.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "perdida",
+                           "numerical_id": 20238,
+                           "title": "Perdida",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.04,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 3.4,
+                           "amount_of_votes": 7
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/20238/master/perdida-1430436173.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/30743/original/perdida-1479836670.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "bajo-la-misma-estrella",
+                           "numerical_id": 17674,
+                           "title": "Bajo la misma Estrella",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.28,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.7,
+                           "amount_of_votes": 2798
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/17674/master/bajo-la-misma-estrella-1422863916.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/23968/original/bajo-la-misma-estrella-1478781128.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "como-entrenar-a-tu-dragon-2",
+                           "numerical_id": 17678,
+                           "title": "Cómo Entrenar a Tu Dragón 2",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.34,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.7,
+                           "amount_of_votes": 2490
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/17678/master/como-entrenar-a-tu-dragon-2-1424694662.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/25120/original/como-entrenar-a-tu-dragon-2-1478789768.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "una-semana-en-corcega",
+                           "numerical_id": 30371,
+                           "title": "Una semana en Córcega",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 2.97,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.8,
+                           "amount_of_votes": 218
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/30371/master/una-semana-en-corcega-1465311506.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/50297/original/una-semana-en-corcega-1450355035.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "jugada-salvaje",
+                           "numerical_id": 23469,
+                           "title": "Jugada Salvaje",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.19,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.4,
+                           "amount_of_votes": 560
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/23469/master/jugada-salvaje-1438590434.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/38042/original/jugada-salvaje-1452502768.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-secreto-de-adaline",
+                           "numerical_id": 29018,
+                           "title": "El secreto de Adaline",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.49,
+                           "scale": 5
+                           },
+                           "highlighted_score": {},
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/29018/master/el-secreto-de-adaline-1449046796.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/46505/original/el-secreto-de-adaline-1448010014.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "insidious-capitulo-3",
+                           "numerical_id": 27856,
+                           "title": "Insidious: Capítulo 3",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.9,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.3,
+                           "amount_of_votes": 754
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/27856/master/insidious-capitulo-3-1452506468.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/45920/original/insidious-capitulo-3-1445100990.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "lio-en-broadway",
+                           "numerical_id": 29488,
+                           "title": "Lío en Broadway",
+                           "label": "2,99 €",
+                           "rating": {
+                           "average": 2.68,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.8,
+                           "amount_of_votes": 199
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/29488/master/lio-en-broadway-1450772254.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/48473/original/lio-en-broadway-1448027301.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-nino",
+                           "numerical_id": 18696,
+                           "title": "El Niño",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.79,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.5,
+                           "amount_of_votes": 69
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/18696/master/el-nino-1490866273.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/24297/original/el-nino-1478783238.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "rio-2",
+                           "numerical_id": 5063,
+                           "title": "Rio 2",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.29,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.4,
+                           "amount_of_votes": 763
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/5063/master/rio-2-1460571453.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/18715/original/rio-2.20140801024954.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "x-men-dias-del-futuro-pasado",
+                           "numerical_id": 17325,
+                           "title": "X-Men: Días del futuro pasado",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.2,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.5,
+                           "amount_of_votes": 4690
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/17325/master/x-men-dias-del-futuro-pasado-1488299540.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/21522/original/x-men-dias-del-futuro-pasado-1446479772.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "suite-francesa",
+                           "numerical_id": 26412,
+                           "title": "Suite francesa",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.47,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7,
+                           "amount_of_votes": 208
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/26412/master/suite-francesa-1451918269.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/44890/original/suite-francesa-1444307867.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "las-aventuras-de-peabody-y-sherman",
+                           "numerical_id": 17328,
+                           "title": "Las aventuras de Peabody y Sherman",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.62,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.8,
+                           "amount_of_votes": 676
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/17328/master/las-aventuras-de-peabody-y-sherman-1422863780.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/23957/original/las-aventuras-de-peabody-y-sherman-1478781070.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "serena",
+                           "numerical_id": 21155,
+                           "title": "Serena",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 2.7,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.4,
+                           "amount_of_votes": 231
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/21155/master/serena-1440144714.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/31661/original/serena-1453197382.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-bella-y-la-bestia--3",
+                           "numerical_id": 15113,
+                           "title": "La Bella y la Bestia",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.54,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.9,
+                           "amount_of_votes": 447
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/15113/master/la-bella-y-la-bestia-1439544311.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/17744/original/la-bella-y-la-bestia--3.20140801000646.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "el-gran-hotel-budapest",
+                           "numerical_id": 4879,
+                           "title": "El Gran Hotel Budapest",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 4.08,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.9,
+                           "amount_of_votes": 3437
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/4879/master/el-gran-hotel-budapest-1437380185.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/5164/original/el-gran-hotel-budapest.20140731114052.jpg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "los-imprevistos-del-amor",
+                           "numerical_id": 25713,
+                           "title": "Los imprevistos del amor",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.72,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.6,
+                           "amount_of_votes": 1088
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/25713/master/los-imprevistos-del-amor-1445864590.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/41125/original/los-imprevistos-del-amor-1449122006.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "la-abeja-maya-la-pelicula",
+                           "numerical_id": 20114,
+                           "title": "La abeja Maya: La película",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.08,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.3,
+                           "amount_of_votes": 21
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/20114/master/la-abeja-maya-la-pelicula-1465311400.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/28945/original/la-abeja-maya-la-pelicula-1418806992.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "operacion-artico",
+                           "numerical_id": 26539,
+                           "title": "Operación ártico",
+                           "label": "1,99 €",
+                           "rating": {
+                           "average": 3.95,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6,
+                           "amount_of_votes": 6
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/26539/master/operacion-artico-1445510891.jpeg",
+                           "snapshot": "https://images-0.wuaki.tv/system/shots/46275/original/operacion-artico-1444315681.jpeg",
+                           "ribbons": []
+                           }
+                           }
+                           ],
+                  "meta": {
+                  "pagination": {
+                  "page": 1,
+                  "count": 103,
+                  "per_page": 28,
+                  "offset": 0,
+                  "total_pages": 4
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "type": "lists",
+                  "id": "todas-las-series-en-selection",
+                  "numerical_id": 2366,
+                  "name": "Todas las series en SELECTION",
+                  "category": null,
+                  "short_name": "Todas las Series",
+                  "content_type": "TvShow",
+                  "additional_images": {},
+                  "contents": {
+                  "data": [
+                           {
+                           "type": "tv_shows",
+                           "id": "wolf-hall",
+                           "numerical_id": 2183,
+                           "title": "Wolf Hall",
+                           "label": "1",
+                           "rating": {
+                           "average": 4.9,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.8,
+                           "amount_of_votes": 15
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/2183/master/wolf-hall-1483532948.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 1,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "La multipremiada serie ganadora del Globo de Oro narra los pasos de Thomas Cromwell, el secretario de Estado y consejero de Enrique VIII, que tuvo un papel crucial en el devenir de la historia de Inglaterra en el s.XVI, cuando el país estuvo al borde de la catástrofe.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "7",
+                           "numerical_id": 7,
+                           "name": "12",
+                           "age": 12,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 12 años",
+                           "default": false
+                           },
+                           "years": "2015"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "the-outcast",
+                           "numerical_id": 2184,
+                           "title": "The Outcast",
+                           "label": "1",
+                           "rating": {
+                           "average": 4.9,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 1,
+                           "amount_of_votes": 1
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/2184/master/the-outcast-1484318850.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 1,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "'The outcast', magistral adaptación de la primera y premiada novela de la autora británica Sadie Jones, es un poderoso retrato de la hipocresía en una ciudad pequeña y del amor entre jóvenes, ambientado en la Gran Bretaña de los 50, cuando el país se recuperaba de la II Guerra Mundial.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "7",
+                           "numerical_id": 7,
+                           "name": "12",
+                           "age": 12,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 12 años",
+                           "default": false
+                           },
+                           "years": "2015"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "infieles",
+                           "numerical_id": 113,
+                           "title": "Infieles",
+                           "label": "3",
+                           "rating": {
+                           "average": 4.353333,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 4,
+                           "amount_of_votes": 22
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/113/master/infieles-1489062902.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 3,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "4 amigas, 4 corazones. 13 semanas de seducción. 'Infieles' es una serie cargada de emociones y sexo sobre la escandalosa vida de un grupo de cuatro mujeres en su proceso de auto-conocimiento personal que tratan de mantenerse unidas a pesar de las dificultades que se les presentan.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "7",
+                           "numerical_id": 7,
+                           "name": "12",
+                           "age": 12,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 12 años",
+                           "default": false
+                           },
+                           "years": "2013 - 2015"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "resurrection",
+                           "numerical_id": 1664,
+                           "title": "Resurrection",
+                           "label": "2",
+                           "rating": {
+                           "average": 3.855,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.1,
+                           "amount_of_votes": 36
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/1664/master/resurrection-1486637064.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 2,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "ciencia-ficcion",
+                                      "numerical_id": 25,
+                                      "name": "Ciencia ficción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Sensacional remake de la intrigante serie de éxito francesa 'Les Revenants' sobre una comunidad que se ve sorprendida cuando sus fallecidos seres queridos regresan como no muertos. Evitando las escenas escabrosas y apostando por la más pura intriga,'Resurrection' te enganchará desde su 1er episodio.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "1",
+                           "numerical_id": 1,
+                           "name": "T",
+                           "age": 0,
+                           "adult": false,
+                           "description": "Mostrar sólo contenidos autorizados para todos los públicos",
+                           "default": false
+                           },
+                           "years": "2013 - 2015"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "revenge",
+                           "numerical_id": 102,
+                           "title": "Revenge",
+                           "label": "4",
+                           "rating": {
+                           "average": 4.495,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7,
+                           "amount_of_votes": 85
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/102/master/revenge-1480001232.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 4,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Emily Thorne trama una brillante venganza contra Victoria Grayson, la reina de los Hamptons, y contra todos los que destrozaron a su familia.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "7",
+                           "numerical_id": 7,
+                           "name": "12",
+                           "age": 12,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 12 años",
+                           "default": false
+                           },
+                           "years": "2011 - 2014"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "the-walking-dead",
+                           "numerical_id": 26,
+                           "title": "The Walking Dead",
+                           "label": "6",
+                           "rating": {
+                           "average": 4.43,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.4,
+                           "amount_of_votes": 1692
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/26/master/the-walking-dead-1484912422.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 6,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "accion",
+                                      "numerical_id": 35,
+                                      "name": "Acción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6231/original/1453732413-1453732413.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "ciencia-ficcion",
+                                      "numerical_id": 25,
+                                      "name": "Ciencia ficción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "terror",
+                                      "numerical_id": 26,
+                                      "name": "Terror",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6371/original/1461246537-1461246537.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Basada en el cómic homónimo, \"The Walking Dead\" narra la historia de un pequeño grupo de supervivientes en un mundo apocalíptico en el que los zombies se han convertido en plaga. Impactante, aterradora y también muy humana.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "5",
+                           "numerical_id": 5,
+                           "name": "18",
+                           "age": 18,
+                           "adult": false,
+                           "description": "Mostrar todos los contenidos, excluyendo los clasificados para adultos",
+                           "default": false
+                           },
+                           "years": "2010 - 2016"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "humans",
+                           "numerical_id": 2043,
+                           "title": "Humans",
+                           "label": "1",
+                           "rating": {
+                           "average": 4.12,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7,
+                           "amount_of_votes": 124
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/2043/master/humans-1465894199.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 1,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "ciencia-ficcion",
+                                      "numerical_id": 25,
+                                      "name": "Ciencia ficción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "En un presente paralelo, lo último en artilugios tecnológicos es \"sint\", un sirviente robótico altamente desarrollado. Para lograr mantener a su familia unida, Joe Hawkins compra un sint, con el que acabarán descubriendo que compartir la vida con una máquina tiene consecuencias escalofriantes.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "8",
+                           "numerical_id": 8,
+                           "name": "16",
+                           "age": 16,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 16 años",
+                           "default": false
+                           },
+                           "years": "2015"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "anatomia-de-grey",
+                           "numerical_id": 10,
+                           "title": "Anatomía de Grey",
+                           "label": "12",
+                           "rating": {
+                           "average": 4.604167,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.8,
+                           "amount_of_votes": 314
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/10/master/anatomia-de-grey-1489576955.jpeg",
+                           "ribbons": [
+                                       {
+                                       "type": "ribbons",
+                                       "id": "280",
+                                       "numerical_id": 280,
+                                       "name": "last-chance-apiv3",
+                                       "color": "#1409e0",
+                                       "position": "top",
+                                       "localized_name": "ÚLTIMOS DIAS",
+                                       "image": null
+                                       }
+                                       ]
+                           },
+                           "number_of_seasons": 12,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "DISPONIBLE EN WUAKI SELECTION HASTA EL 03/04/2017. El reputado Hospital Seattle Grace sirve de escenario para narrar las vidas de cinco jóvenes recién licenciados en medicina que comienzan un exigente periodo de pruebas en el hospital.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "4",
+                           "numerical_id": 4,
+                           "name": "13",
+                           "age": 13,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 13 años",
+                           "default": false
+                           },
+                           "years": "2005 - "
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "agents-of-s-h-i-e-l-d",
+                           "numerical_id": 1439,
+                           "title": "Agents of S.H.I.E.L.D.",
+                           "label": "3",
+                           "rating": {
+                           "average": 4.513333,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.4,
+                           "amount_of_votes": 506
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/1439/master/agents-of-s-h-i-e-l-d-1482832830.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 3,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "accion",
+                                      "numerical_id": 35,
+                                      "name": "Acción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6231/original/1453732413-1453732413.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "ciencia-ficcion",
+                                      "numerical_id": 25,
+                                      "name": "Ciencia ficción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Un grupo muy selecto de agentes de la organización internacional de seguridad S.H.I.E.L.D. investiga lo nuevo, lo extraño y lo desconocido por todo el mundo, protegiendo lo ordinario de lo extraordinario.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "3",
+                           "numerical_id": 3,
+                           "name": "7",
+                           "age": 7,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para niños de hasta 7 años",
+                           "default": false
+                           },
+                           "years": "2013 - 2016"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "gomorra",
+                           "numerical_id": 1447,
+                           "title": "Gomorra",
+                           "label": "2",
+                           "rating": {
+                           "average": 4.57,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.7,
+                           "amount_of_votes": 37
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/1447/master/gomorra-1481542142.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 2,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "accion",
+                                      "numerical_id": 35,
+                                      "name": "Acción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6231/original/1453732413-1453732413.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Impactante y realista retrato de la Camorra napolitana. La historia de esta despidada organización es contada siguiendo los pasos de Ciro, un joven de 30 años que resulta ser la mano derecha del poderoso Pietro Savastano, capo del Clan Savastano.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "8",
+                           "numerical_id": 8,
+                           "name": "16",
+                           "age": 16,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 16 años",
+                           "default": false
+                           },
+                           "years": "2014 - 2016"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "borgia",
+                           "numerical_id": 2145,
+                           "title": "Borgia",
+                           "label": "2",
+                           "rating": {
+                           "average": 3.405,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.6,
+                           "amount_of_votes": 8
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/2145/master/borgia-1474905723.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 2,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "'Borgia' es una serie llena de intrigas y duelos de poder ambientada en el s.XVI, la época de Da Vinci y Miguel Ángel, del arte renacentista y de unos avances intelectuales sin precedentes. En el Vaticano había un hombre, Rodrigo Borgia, que luchaba por llegar a ser el Papa de Roma.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "4",
+                           "numerical_id": 4,
+                           "name": "13",
+                           "age": 13,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 13 años",
+                           "default": false
+                           },
+                           "years": " - 2013"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "wayward-pines",
+                           "numerical_id": 2041,
+                           "title": "Wayward Pines",
+                           "label": "2",
+                           "rating": {
+                           "average": 4.115,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.3,
+                           "amount_of_votes": 154
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/2041/master/wayward-pines-1490174592.jpeg",
+                           "ribbons": [
+                                       {
+                                       "type": "ribbons",
+                                       "id": "233",
+                                       "numerical_id": 233,
+                                       "name": "new-episodes-apiv3",
+                                       "color": "#e75c01",
+                                       "position": "top",
+                                       "localized_name": "NUEVOS EPISODIOS",
+                                       "image": null
+                                       }
+                                       ]
+                           },
+                           "number_of_seasons": 2,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "ciencia-ficcion",
+                                      "numerical_id": 25,
+                                      "name": "Ciencia ficción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "terror",
+                                      "numerical_id": 26,
+                                      "name": "Terror",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6371/original/1461246537-1461246537.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Producida por M.Night Shyamalan, 'Wayward Pines' es un inquietante y sorprendente thriller lleno de giros de guión inesperados. Un agente del servicio secreto va a Wayward Pines en busca de dos agentes federales que han desaparecido. Pronto descubrirá que una terrible verdad: nadie escapa del pueblo",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "8",
+                           "numerical_id": 8,
+                           "name": "16",
+                           "age": 16,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 16 años",
+                           "default": false
+                           },
+                           "years": "2015 - 2016"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "peaky-blinders",
+                           "numerical_id": 1636,
+                           "title": "Peaky Blinders",
+                           "label": "3",
+                           "rating": {
+                           "average": 4.613333,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.9,
+                           "amount_of_votes": 114
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/1636/master/peaky-blinders-1467627090.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 3,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "accion",
+                                      "numerical_id": 35,
+                                      "name": "Acción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6231/original/1453732413-1453732413.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "drama",
+                                      "numerical_id": 28,
+                                      "name": "Drama",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "'Peaky Blinders' es un drama de gánsteres ambientado en las calles de la post-guerra en el Birmingham de los años 20, sobre la familia de mafiosos más temida y respetada de la ciudad: los Peaky Blinders.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "1",
+                           "numerical_id": 1,
+                           "name": "T",
+                           "age": 0,
+                           "adult": false,
+                           "description": "Mostrar sólo contenidos autorizados para todos los públicos",
+                           "default": false
+                           },
+                           "years": "2013 - 2016"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "the-frankenstein-chronicles",
+                           "numerical_id": 1840,
+                           "title": "The Frankenstein Chronicles",
+                           "label": "1",
+                           "rating": {
+                           "average": 4.61,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.2,
+                           "amount_of_votes": 8
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/1840/master/the-frankenstein-chronicles-1449655718.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 1,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "terror",
+                                      "numerical_id": 26,
+                                      "name": "Terror",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-2.wuaki.tv/system/brandable_photos/6371/original/1461246537-1461246537.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "ESTRENO EXCLUSIVO EN ESPAÑA.  Ambientado en el Londres del S. XIX, este aterrador thriller es una recreación del clásico de Mary Shelley desde el punto de vista del detective John Marlott (Sean Bean, 'Juego de Tronos') quien está siguiendo la pista a lo que parecen ser experimentos de tipo diabólico",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "2",
+                           "numerical_id": 2,
+                           "name": "E",
+                           "age": 0,
+                           "adult": false,
+                           "description": "Mostrar sólo contenidos recomendados para la infancia",
+                           "default": false
+                           },
+                           "years": "2015"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "the-game",
+                           "numerical_id": 1633,
+                           "title": "The Game",
+                           "label": "1",
+                           "rating": {
+                           "average": 3.64,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 8.7,
+                           "amount_of_votes": 3
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/1633/master/the-game-1489075250.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 1,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Londres 1972. Cuando un agente desertor del KGB revela la existencia de un plan Soviético devastador con el nombre de ‘Operation Glass’ capaz de cambiar el curso de la Guerra Fría, el director del MI5 debe reclutar a un comité secreto para proteger a Gran Bretaña.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "1",
+                           "numerical_id": 1,
+                           "name": "T",
+                           "age": 0,
+                           "adult": false,
+                           "description": "Mostrar sólo contenidos autorizados para todos los públicos",
+                           "default": false
+                           },
+                           "years": "2014"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "wallander",
+                           "numerical_id": 1635,
+                           "title": "Wallander",
+                           "label": "3",
+                           "rating": {
+                           "average": 4.6,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.1,
+                           "amount_of_votes": 19
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/1635/master/wallander-1458039284.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 3,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Vibrante adaptación llena de misterios e intriga, ganadora de 5 premios Bafta, de los best-seller del sueco Henning Mankell que sigue las andanzas del detective Kurt Wallander (Kenneth Branagh). Ambientada en la ciudad de Ystad, Suecia, la serie se centra en tres misteriosos asesinatos.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "8",
+                           "numerical_id": 8,
+                           "name": "16",
+                           "age": 16,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 16 años",
+                           "default": false
+                           },
+                           "years": "2008 - 2012"
+                           },
+                           {
+                           "type": "tv_shows",
+                           "id": "the-listener",
+                           "numerical_id": 28,
+                           "title": "The Listener",
+                           "label": "4",
+                           "rating": {
+                           "average": 4.358,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 4.9,
+                           "amount_of_votes": 13
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/28/master/the-listener-1446127499.jpeg",
+                           "ribbons": []
+                           },
+                           "number_of_seasons": 4,
+                           "genres": [
+                                      {
+                                      "type": "genres",
+                                      "id": "ciencia-ficcion",
+                                      "numerical_id": 25,
+                                      "name": "Ciencia ficción",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                                      }
+                                      },
+                                      {
+                                      "type": "genres",
+                                      "id": "thriller",
+                                      "numerical_id": 44,
+                                      "name": "Thriller",
+                                      "adult": false,
+                                      "erotic": false,
+                                      "additional_images": {
+                                      "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                                      }
+                                      }
+                                      ],
+                           "short_plot": "Toby Logan lleva desde que era pequeño escuchando los pensamientos de los demás. Un día tiene la oportunidad de utilidad su habilidad para liberar a una niña secuestrada. A partir de entonces, Toby empleará su don para ayudar a la policía.",
+                           "classification": {
+                           "type": "classifications",
+                           "id": "4",
+                           "numerical_id": 4,
+                           "name": "13",
+                           "age": 13,
+                           "adult": false,
+                           "description": "Mostrar sólo los contenidos autorizados para los niños de hasta 13 años",
+                           "default": false
+                           },
+                           "years": "2009 - 2014"
+                           }
+                           ],
+                  "meta": {
+                  "pagination": {
+                  "page": 1,
+                  "count": 17,
+                  "per_page": 28,
+                  "offset": 0,
+                  "total_pages": 1
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "type": "lists",
+                  "id": "gratis",
+                  "numerical_id": 3,
+                  "name": "Gratis",
+                  "category": "rent",
+                  "short_name": "Gratis",
+                  "content_type": "Movie",
+                  "additional_images": {},
+                  "contents": {
+                  "data": [
+                           {
+                           "type": "movies",
+                           "id": "big-buck-bunny",
+                           "numerical_id": 53,
+                           "title": "Big Buck Bunny",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 3.45,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 6.4,
+                           "amount_of_votes": 47
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/53/master/big-buck-bunny-1437479361.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/495/original/big-buck-bunny-1446542003.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "domonic",
+                           "numerical_id": 17706,
+                           "title": "Domonic",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 4.12,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5,
+                           "amount_of_votes": 1
+                           },
+                           "images": {
+                           "artwork": "https://images-2.wuaki.tv/system/artworks/17706/master/domonic-1429088131.jpeg",
+                           "snapshot": "https://images-2.wuaki.tv/system/shots/37201/original/domonic-1429088104.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "inquilinos",
+                           "numerical_id": 17705,
+                           "title": "Inquilinos",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 3.59,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5,
+                           "amount_of_votes": 1
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/17705/master/inquilinos-1434551075.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/28435/original/inquilinos-1418129566.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "ultravioleta-cd66d9a5-fa7e-4665-9937-6e82e672f57d",
+                           "numerical_id": 17703,
+                           "title": "Ultravioleta",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 3.54,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7,
+                           "amount_of_votes": 1
+                           },
+                           "images": {
+                           "artwork": "https://images-1.wuaki.tv/system/artworks/17703/master/ultravioleta-1437666836.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/23024/original/ultravioleta-cd66d9a5-fa7e-4665-9937-6e82e672f57d-1411120246.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "sintel",
+                           "numerical_id": 4603,
+                           "title": "Sintel",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 3.87,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 7.4,
+                           "amount_of_votes": 61
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/4603/master/sintel-1437477114.jpeg",
+                           "snapshot": "https://images-3.wuaki.tv/system/shots/4864/original/sintel.20140731111116.jpg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "tears-of-steel",
+                           "numerical_id": 4602,
+                           "title": "Tears of Steel",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 3.08,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 5.3,
+                           "amount_of_votes": 18
+                           },
+                           "images": {
+                           "artwork": "https://images-0.wuaki.tv/system/artworks/4602/master/tears-of-steel-1437477260.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/4863/original/tears-of-steel-1446829144.jpeg",
+                           "ribbons": []
+                           }
+                           },
+                           {
+                           "type": "movies",
+                           "id": "1-58",
+                           "numerical_id": 17704,
+                           "title": "1:58",
+                           "label": "Gratis",
+                           "rating": {
+                           "average": 3.18,
+                           "scale": 5
+                           },
+                           "highlighted_score": {
+                           "score": 4,
+                           "amount_of_votes": 2
+                           },
+                           "images": {
+                           "artwork": "https://images-3.wuaki.tv/system/artworks/17704/master/1-58-1437666570.jpeg",
+                           "snapshot": "https://images-1.wuaki.tv/system/shots/23643/original/1-58-1478779249.jpeg",
+                           "ribbons": []
+                           }
+                           }
+                           ],
+                  "meta": {
+                  "pagination": {
+                  "page": 1,
+                  "count": 7,
+                  "per_page": 28,
+                  "offset": 0,
+                  "total_pages": 1
+                  }
+                  }
+                  }
+                  }
+                  ],
+        "additional_images": {},
+        "genres": {
+            "data": [
+                     {
+                     "type": "genres",
+                     "id": "accion",
+                     "numerical_id": 35,
+                     "name": "Acción",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-2.wuaki.tv/system/brandable_photos/6231/original/1453732413-1453732413.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "animacion",
+                     "numerical_id": 50,
+                     "name": "Animación",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-2.wuaki.tv/system/brandable_photos/6349/original/1461242197-1461242197.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "autor-indie",
+                     "numerical_id": 55,
+                     "name": "Autor / Indie",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-0.wuaki.tv/system/brandable_photos/6351/original/1461242480-1461242480.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "aventuras",
+                     "numerical_id": 58,
+                     "name": "Aventuras",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-1.wuaki.tv/system/brandable_photos/6352/original/1461242555-1461242555.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "belico",
+                     "numerical_id": 53,
+                     "name": "Bélico",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-3.wuaki.tv/system/brandable_photos/6353/original/1461242646-1461242646.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "ciencia-ficcion",
+                     "numerical_id": 25,
+                     "name": "Ciencia ficción",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-0.wuaki.tv/system/brandable_photos/6354/original/1461243145-1461243145.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "cine-espanol",
+                     "numerical_id": 42,
+                     "name": "Cine español",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-1.wuaki.tv/system/brandable_photos/6356/original/1461243368-1461243368.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "cine-familiar",
+                     "numerical_id": 41,
+                     "name": "Cine familiar",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-2.wuaki.tv/system/brandable_photos/6357/original/1461243437-1461243437.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "clasicos",
+                     "numerical_id": 43,
+                     "name": "Clásicos",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-0.wuaki.tv/system/brandable_photos/6358/original/1461243499-1461243499.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "comedia",
+                     "numerical_id": 23,
+                     "name": "Comedia",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-1.wuaki.tv/system/brandable_photos/6359/original/1461243667-1461243667.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "comedia-romantica",
+                     "numerical_id": 272,
+                     "name": "Comedia romántica",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-2.wuaki.tv/system/brandable_photos/6360/original/1461243740-1461243740.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "disney",
+                     "numerical_id": 52,
+                     "name": "Disney",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-3.wuaki.tv/system/brandable_photos/6362/original/1461244009-1461244009.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "documental",
+                     "numerical_id": 54,
+                     "name": "Documental",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-3.wuaki.tv/system/brandable_photos/6363/original/1461244445-1461244445.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "drama",
+                     "numerical_id": 28,
+                     "name": "Drama",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "drama-romantico",
+                     "numerical_id": 273,
+                     "name": "Drama romántico",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-1.wuaki.tv/system/brandable_photos/6365/original/1461244898-1461244898.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "erotico",
+                     "numerical_id": 47,
+                     "name": "Erótico",
+                     "adult": false,
+                     "erotic": true,
+                     "additional_images": {
+                     "icon": "https://images-0.wuaki.tv/system/brandable_photos/6366/original/1461244958-1461244958.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "terror",
+                     "numerical_id": 26,
+                     "name": "Terror",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-2.wuaki.tv/system/brandable_photos/6371/original/1461246537-1461246537.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "thriller",
+                     "numerical_id": 44,
+                     "name": "Thriller",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"
+                     }
+                     },
+                     {
+                     "type": "genres",
+                     "id": "western",
+                     "numerical_id": 45,
+                     "name": "Western",
+                     "adult": false,
+                     "erotic": false,
+                     "additional_images": {
+                     "icon": "https://images-1.wuaki.tv/system/brandable_photos/6373/original/1461246654-1461246654.png"
+                     }
+                     }
+                     ]
+        }
+    }
+}

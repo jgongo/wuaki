@@ -82,6 +82,17 @@
 		1DA901471E910783001EA850 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA901461E910783001EA850 /* error.json */; };
 		1DA9014A1E9108DB001EA850 /* WUError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901491E9108DB001EA850 /* WUError.m */; };
 		1DA9014D1E910A0D001EA850 /* WUErrorMappingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9014C1E910A0D001EA850 /* WUErrorMappingSpec.m */; };
+		1DA901501E911310001EA850 /* response.frontPage.success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9014F1E911310001EA850 /* response.frontPage.success.json */; };
+		1DA901521E911351001EA850 /* response.frontPage.error.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA901511E911351001EA850 /* response.frontPage.error.json */; };
+		1DA901551E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901541E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m */; };
+		1DA901671E91157D001EA850 /* INPHTTPJSONFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901571E91157D001EA850 /* INPHTTPJSONFixture.m */; };
+		1DA901681E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901591E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.m */; };
+		1DA901691E91157D001EA850 /* INPHTTPRequestHeadersMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9015B1E91157D001EA850 /* INPHTTPRequestHeadersMatcher.m */; };
+		1DA9016A1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9015D1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.m */; };
+		1DA9016B1E91157D001EA850 /* INPHTTPRequestMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9015F1E91157D001EA850 /* INPHTTPRequestMatcher.m */; };
+		1DA9016C1E91157D001EA850 /* INPHTTPRequestMethodMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901621E91157D001EA850 /* INPHTTPRequestMethodMatcher.m */; };
+		1DA9016D1E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901641E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.m */; };
+		1DA9016E1E91157D001EA850 /* INPHTTPRequestURLMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901661E91157D001EA850 /* INPHTTPRequestURLMatcher.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -244,6 +255,27 @@
 		1DA901481E9108DB001EA850 /* WUError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUError.h; sourceTree = "<group>"; };
 		1DA901491E9108DB001EA850 /* WUError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUError.m; sourceTree = "<group>"; };
 		1DA9014C1E910A0D001EA850 /* WUErrorMappingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUErrorMappingSpec.m; sourceTree = "<group>"; };
+		1DA9014E1E910EBD001EA850 /* WULogLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WULogLevel.h; sourceTree = "<group>"; };
+		1DA9014F1E911310001EA850 /* response.frontPage.success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.frontPage.success.json; sourceTree = "<group>"; };
+		1DA901511E911351001EA850 /* response.frontPage.error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.frontPage.error.json; sourceTree = "<group>"; };
+		1DA901541E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUServiceFrontPageRetrievalSpec.m; sourceTree = "<group>"; };
+		1DA901561E91157D001EA850 /* INPHTTPJSONFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPJSONFixture.h; sourceTree = "<group>"; };
+		1DA901571E91157D001EA850 /* INPHTTPJSONFixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPJSONFixture.m; sourceTree = "<group>"; };
+		1DA901581E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestEmptyBodyMatcher.h; sourceTree = "<group>"; };
+		1DA901591E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestEmptyBodyMatcher.m; sourceTree = "<group>"; };
+		1DA9015A1E91157D001EA850 /* INPHTTPRequestHeadersMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestHeadersMatcher.h; sourceTree = "<group>"; };
+		1DA9015B1E91157D001EA850 /* INPHTTPRequestHeadersMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestHeadersMatcher.m; sourceTree = "<group>"; };
+		1DA9015C1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestJSONBodyMatcher.h; sourceTree = "<group>"; };
+		1DA9015D1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestJSONBodyMatcher.m; sourceTree = "<group>"; };
+		1DA9015E1E91157D001EA850 /* INPHTTPRequestMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestMatcher.h; sourceTree = "<group>"; };
+		1DA9015F1E91157D001EA850 /* INPHTTPRequestMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestMatcher.m; sourceTree = "<group>"; };
+		1DA901601E91157D001EA850 /* INPHTTPRequestMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestMatchers.h; sourceTree = "<group>"; };
+		1DA901611E91157D001EA850 /* INPHTTPRequestMethodMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestMethodMatcher.h; sourceTree = "<group>"; };
+		1DA901621E91157D001EA850 /* INPHTTPRequestMethodMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestMethodMatcher.m; sourceTree = "<group>"; };
+		1DA901631E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestQueryParameterMatcher.h; sourceTree = "<group>"; };
+		1DA901641E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestQueryParameterMatcher.m; sourceTree = "<group>"; };
+		1DA901651E91157D001EA850 /* INPHTTPRequestURLMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPHTTPRequestURLMatcher.h; sourceTree = "<group>"; };
+		1DA901661E91157D001EA850 /* INPHTTPRequestURLMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPHTTPRequestURLMatcher.m; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -288,6 +320,7 @@
 			children = (
 				1D1C235D1E8FCA2C00B431CF /* assembly */,
 				1DA9014C1E910A0D001EA850 /* WUErrorMappingSpec.m */,
+				1DA901541E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m */,
 			);
 			path = logic;
 			sourceTree = "<group>";
@@ -323,6 +356,23 @@
 		1D78A4EC1E8FB7D800C0790A /* test-helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1DA901561E91157D001EA850 /* INPHTTPJSONFixture.h */,
+				1DA901571E91157D001EA850 /* INPHTTPJSONFixture.m */,
+				1DA901581E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.h */,
+				1DA901591E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.m */,
+				1DA9015A1E91157D001EA850 /* INPHTTPRequestHeadersMatcher.h */,
+				1DA9015B1E91157D001EA850 /* INPHTTPRequestHeadersMatcher.m */,
+				1DA9015C1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.h */,
+				1DA9015D1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.m */,
+				1DA9015E1E91157D001EA850 /* INPHTTPRequestMatcher.h */,
+				1DA9015F1E91157D001EA850 /* INPHTTPRequestMatcher.m */,
+				1DA901601E91157D001EA850 /* INPHTTPRequestMatchers.h */,
+				1DA901611E91157D001EA850 /* INPHTTPRequestMethodMatcher.h */,
+				1DA901621E91157D001EA850 /* INPHTTPRequestMethodMatcher.m */,
+				1DA901631E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.h */,
+				1DA901641E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.m */,
+				1DA901651E91157D001EA850 /* INPHTTPRequestURLMatcher.h */,
+				1DA901661E91157D001EA850 /* INPHTTPRequestURLMatcher.m */,
 				1D78A4ED1E8FB80F00C0790A /* INRestKitHelper.h */,
 				1D78A4EE1E8FB80F00C0790A /* INRestKitHelper.m */,
 			);
@@ -466,6 +516,7 @@
 			children = (
 				1D9727151E8E6D9E00E8917D /* AppDelegate.h */,
 				1D9727161E8E6D9E00E8917D /* AppDelegate.m */,
+				1DA9014E1E910EBD001EA850 /* WULogLevel.h */,
 			);
 			path = "app-delegate";
 			sourceTree = "<group>";
@@ -686,6 +737,8 @@
 		1D97273D1E8E6DD800E8917D /* responses */ = {
 			isa = PBXGroup;
 			children = (
+				1DA901511E911351001EA850 /* response.frontPage.error.json */,
+				1DA9014F1E911310001EA850 /* response.frontPage.success.json */,
 			);
 			path = responses;
 			sourceTree = "<group>";
@@ -883,7 +936,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA901521E911351001EA850 /* response.frontPage.error.json in Resources */,
 				1D1C236B1E8FED4A00B431CF /* streaming.json in Resources */,
+				1DA901501E911310001EA850 /* response.frontPage.success.json in Resources */,
 				1DA901301E90F00B001EA850 /* frontPage.json in Resources */,
 				1D78A5001E8FC05A00C0790A /* streamInfo.json in Resources */,
 				1DA901471E910783001EA850 /* error.json in Resources */,
@@ -1063,12 +1118,21 @@
 			files = (
 				1D1C23601E8FCA5200B431CF /* WUAssemblySpec.m in Sources */,
 				1D78A4EB1E8FB75100C0790A /* WUStreamingMappingSpec.m in Sources */,
+				1DA901691E91157D001EA850 /* INPHTTPRequestHeadersMatcher.m in Sources */,
+				1DA901671E91157D001EA850 /* INPHTTPJSONFixture.m in Sources */,
+				1DA9016B1E91157D001EA850 /* INPHTTPRequestMatcher.m in Sources */,
 				1D2B364A1E9001DB0009316C /* WUTVShowMappingSpec.m in Sources */,
+				1DA901681E91157D001EA850 /* INPHTTPRequestEmptyBodyMatcher.m in Sources */,
 				1D78A4EF1E8FB80F00C0790A /* INRestKitHelper.m in Sources */,
+				1DA9016D1E91157D001EA850 /* INPHTTPRequestQueryParameterMatcher.m in Sources */,
 				1DA901391E90F588001EA850 /* WUFrontPageMappingSpec.m in Sources */,
 				1DA901131E901AAD001EA850 /* WUMovieMappingSpec.m in Sources */,
 				1D78A4FB1E8FBD3000C0790A /* WUTestAssembly.m in Sources */,
+				1DA9016A1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.m in Sources */,
 				1D78A4FE1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m in Sources */,
+				1DA9016C1E91157D001EA850 /* INPHTTPRequestMethodMatcher.m in Sources */,
+				1DA901551E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m in Sources */,
+				1DA9016E1E91157D001EA850 /* INPHTTPRequestURLMatcher.m in Sources */,
 				1DA9014D1E910A0D001EA850 /* WUErrorMappingSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
