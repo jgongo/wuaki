@@ -83,7 +83,7 @@ describe(@"Wuaki service - front page retrieval", ^{
         });
     });
     
-    context(@"when the device front page retrieval fails", ^{
+    context(@"when the front page retrieval fails", ^{
         __block NSError *receivedError;
         
         beforeEach(^{

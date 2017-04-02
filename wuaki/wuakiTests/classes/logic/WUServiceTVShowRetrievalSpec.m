@@ -88,7 +88,7 @@ describe(@"Wuaki service - TV show retrieval", ^{
         });
     });
     
-    context(@"when the device TV show retrieval fails", ^{
+    context(@"when the TV show retrieval fails", ^{
         __block NSError *receivedError;
         
         beforeEach(^{

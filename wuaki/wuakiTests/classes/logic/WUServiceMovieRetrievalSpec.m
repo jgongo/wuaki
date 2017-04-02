@@ -88,7 +88,7 @@ describe(@"Wuaki service - movie retrieval", ^{
         });
     });
     
-    context(@"when the device movie retrieval fails", ^{
+    context(@"when the movie retrieval fails", ^{
         __block NSError *receivedError;
         
         beforeEach(^{
