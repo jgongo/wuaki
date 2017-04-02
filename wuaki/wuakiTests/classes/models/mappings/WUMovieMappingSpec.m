@@ -74,17 +74,17 @@ describe(@"WUMovie mapping", ^{
         specify(^{ [[parsedMovie.classification.identifier      should] equal:@"1"]; });
         specify(^{ [[parsedMovie.classification.name            should] equal:@"T"]; });
         specify(^{ [[theValue(parsedMovie.classification.age)   should] equal:theValue(0)]; });
-        specify(^{ [[theValue(parsedMovie.classification.adult) should] equal:theValue(NO)]; });
+        specify(^{ [[theValue(parsedMovie.classification.adult) should] beNo]; });
         specify(^{ [[parsedMovie.classification.classificationDescription should] equal:@"Mostrar sólo contenidos autorizados para todos los públicos"]; });
         
-        specify(^{ [[theValue(parsedMovie.genres.count) should] equal:theValue(2)]; });
+        specify(^{ [[parsedMovie.genres should] haveCountOf:2]; });
         context(@"with first genre", ^{
             __block WUGenre *genre;
             beforeEach(^{ genre = parsedMovie.genres[0]; });
             specify(^{ [[genre.identifier       should] equal:@"cine-familiar"]; });
             specify(^{ [[genre.name             should] equal:@"Cine familiar"]; });
-            specify(^{ [[theValue(genre.adult)  should] equal:theValue(NO)]; });
-            specify(^{ [[theValue(genre.erotic) should] equal:theValue(NO)]; });
+            specify(^{ [[theValue(genre.adult)  should] beNo]; });
+            specify(^{ [[theValue(genre.erotic) should] beNo]; });
             
             specify(^{ [[genre.icon should] beNonNil]; });
             specify(^{ [[genre.icon.url should] equal:[NSURL URLWithString:@"https://images-2.wuaki.tv/system/brandable_photos/6357/original/1461243437-1461243437.png"]]; });
@@ -94,8 +94,8 @@ describe(@"WUMovie mapping", ^{
             beforeEach(^{ genre = parsedMovie.genres[1]; });
             specify(^{ [[genre.identifier       should] equal:@"drama"]; });
             specify(^{ [[genre.name             should] equal:@"Drama"]; });
-            specify(^{ [[theValue(genre.adult)  should] equal:theValue(NO)]; });
-            specify(^{ [[theValue(genre.erotic) should] equal:theValue(NO)]; });
+            specify(^{ [[theValue(genre.adult)  should] beNo]; });
+            specify(^{ [[theValue(genre.erotic) should] beNo]; });
             
             specify(^{ [[genre.icon should] beNonNil]; });
             specify(^{ [[genre.icon.url should] equal:[NSURL URLWithString:@"https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"]]; });
@@ -103,7 +103,7 @@ describe(@"WUMovie mapping", ^{
         
         specify(^{ [[parsedMovie.scores should] beEmpty]; });
         
-        specify(^{ [[theValue(parsedMovie.directors.count) should] equal:theValue(1)]; });
+        specify(^{ [[parsedMovie.directors should] haveCountOf:1]; });
         context(@"with first director", ^{
             __block WUPeople *director;
             beforeEach(^{ director = parsedMovie.directors[0]; });
@@ -112,7 +112,7 @@ describe(@"WUMovie mapping", ^{
             specify(^{ [[director.photo      should] beNil]; });
         });
         
-        specify(^{ [[theValue(parsedMovie.actors.count) should] equal:theValue(6)]; });
+        specify(^{ [[parsedMovie.actors should] haveCountOf:6]; });
         context(@"with first actor", ^{
             __block WUPeople *actor;
             beforeEach(^{ actor = parsedMovie.actors[0]; });
@@ -135,12 +135,12 @@ describe(@"WUMovie mapping", ^{
             specify(^{ [[actor.photo      should] equal:[NSURL URLWithString:@"https://images-3.wuaki.tv/system/photos/136926/original/charlie-barnett-1465294765.jpeg"]]; });
         });
         
-        specify(^{ [[theValue(parsedMovie.media.trailers.count) should] equal:theValue(1)]; });
+        specify(^{ [[parsedMovie.media.trailers should] haveCountOf:1]; });
         context(@"with first trailer", ^{
             __block WUMediaInfo *mediaInfo;
             beforeEach(^{ mediaInfo = parsedMovie.media.trailers[0]; });
             
-            specify(^{ [[theValue(mediaInfo.audioLanguages.count) should] equal:theValue(1)]; });
+            specify(^{ [[mediaInfo.audioLanguages should] haveCountOf:1]; });
             context(@"with first audio language", ^{
                 __block WULanguage *language;
                 beforeEach(^{ language = mediaInfo.audioLanguages[0]; });
@@ -149,7 +149,7 @@ describe(@"WUMovie mapping", ^{
                 specify(^{ [[language.abbreviation should] equal:@"SPA"]; });
             });
             
-            specify(^{ [[theValue(mediaInfo.subtitleLanguages.count) should] equal:theValue(1)]; });
+            specify(^{ [[mediaInfo.subtitleLanguages should] haveCountOf:1]; });
             context(@"with first subtitle language", ^{
                 __block WULanguage *language;
                 beforeEach(^{ language = mediaInfo.subtitleLanguages[0]; });
@@ -158,7 +158,7 @@ describe(@"WUMovie mapping", ^{
                 specify(^{ [[language.abbreviation should] equal:@"MIS"]; });
             });
             
-            specify(^{ [[theValue(mediaInfo.videoQualities.count) should] equal:theValue(1)]; });
+            specify(^{ [[mediaInfo.videoQualities should] haveCountOf:1]; });
             context(@"with first video quality", ^{
                 __block WUVideoQuality *quality;
                 beforeEach(^{ quality = mediaInfo.videoQualities[0]; });
@@ -167,7 +167,7 @@ describe(@"WUMovie mapping", ^{
                 specify(^{ [[quality.abbreviation should] equal:@"SD"]; });
             });
             
-            specify(^{ [[theValue(mediaInfo.audioQualities.count) should] equal:theValue(1)]; });
+            specify(^{ [[mediaInfo.audioQualities should] haveCountOf:1]; });
             context(@"with first audio quality", ^{
                 __block WUAudioQuality *quality;
                 beforeEach(^{ quality = mediaInfo.audioQualities[0]; });
@@ -176,7 +176,7 @@ describe(@"WUMovie mapping", ^{
                 specify(^{ [[quality.abbreviation should] equal:@"2.0"]; });
             });
             
-            specify(^{ [[theValue(mediaInfo.streamingDRMTypes.count) should] equal:theValue(1)]; });
+            specify(^{ [[mediaInfo.streamingDRMTypes should] haveCountOf:1]; });
             specify(^{ [[mediaInfo.streamingDRMTypes[0].identifier should] equal:@"PD-NONE"]; });
         });
     });

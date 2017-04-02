@@ -47,7 +47,7 @@ describe(@"WUStreaming mapping", ^{
         
         specify(^{ [[parsedStreaming.identifier should] equal:@"63b63ab5-34c3-4e9f-be7a-52833e761b33"]; });
         
-        specify(^{ [[theValue(parsedStreaming.streams.count) should] equal:theValue(1)]; });
+        specify(^{ [[parsedStreaming.streams should] haveCountOf:1]; });
         context(@"with stream infos", ^{
             __block WUStreamInfo *streamInfo;
             beforeEach(^{ streamInfo = parsedStreaming.streams[0]; });

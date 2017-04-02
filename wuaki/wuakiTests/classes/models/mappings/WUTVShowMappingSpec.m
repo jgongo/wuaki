@@ -59,17 +59,17 @@ describe(@"WUTVShow mapping", ^{
         specify(^{ [[parsedTVShow.classification.identifier      should] equal:@"7"]; });
         specify(^{ [[parsedTVShow.classification.name            should] equal:@"12"]; });
         specify(^{ [[theValue(parsedTVShow.classification.age)   should] equal:theValue(12)]; });
-        specify(^{ [[theValue(parsedTVShow.classification.adult) should] equal:theValue(NO)]; });
+        specify(^{ [[theValue(parsedTVShow.classification.adult) should] beNo]; });
         specify(^{ [[parsedTVShow.classification.classificationDescription should] equal:@"Mostrar sólo los contenidos autorizados para los niños de hasta 12 años"]; });
         
-        specify(^{ [[theValue(parsedTVShow.genres.count) should] equal:theValue(2)]; });
+        specify(^{ [[parsedTVShow.genres should] haveCountOf:2]; });
         context(@"with first genre", ^{
             __block WUGenre *genre;
             beforeEach(^{ genre = parsedTVShow.genres[0]; });
             specify(^{ [[genre.identifier       should] equal:@"drama"]; });
             specify(^{ [[genre.name             should] equal:@"Drama"]; });
-            specify(^{ [[theValue(genre.adult)  should] equal:theValue(NO)]; });
-            specify(^{ [[theValue(genre.erotic) should] equal:theValue(NO)]; });
+            specify(^{ [[theValue(genre.adult)  should] beNo]; });
+            specify(^{ [[theValue(genre.erotic) should] beNo]; });
             
             specify(^{ [[genre.icon should] beNonNil]; });
             specify(^{ [[genre.icon.url should] equal:[NSURL URLWithString:@"https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"]]; });
@@ -79,8 +79,8 @@ describe(@"WUTVShow mapping", ^{
             beforeEach(^{ genre = parsedTVShow.genres[1]; });
             specify(^{ [[genre.identifier       should] equal:@"thriller"]; });
             specify(^{ [[genre.name             should] equal:@"Thriller"]; });
-            specify(^{ [[theValue(genre.adult)  should] equal:theValue(NO)]; });
-            specify(^{ [[theValue(genre.erotic) should] equal:theValue(NO)]; });
+            specify(^{ [[theValue(genre.adult)  should] beNo]; });
+            specify(^{ [[theValue(genre.erotic) should] beNo]; });
             
             specify(^{ [[genre.icon should] beNonNil]; });
             specify(^{ [[genre.icon.url should] equal:[NSURL URLWithString:@"https://images-0.wuaki.tv/system/brandable_photos/6372/original/1461246595-1461246595.png"]]; });
@@ -90,7 +90,7 @@ describe(@"WUTVShow mapping", ^{
         specify(^{ [[parsedTVShow.image.artwork  should] equal:[NSURL URLWithString:@"https://images-3.wuaki.tv/system/artworks/2183/master/wolf-hall-1483532948.jpeg"]]; });
         specify(^{ [[parsedTVShow.image.snapshot should] beNil]; });
         
-        specify(^{ [[theValue(parsedTVShow.scores.count) should] equal:theValue(1)]; });
+        specify(^{ [[parsedTVShow.scores should] haveCountOf:1]; });
         context(@"with first score", ^{
             __block WUScore *score;
             beforeEach(^{ score = parsedTVShow.scores[0]; });
@@ -104,7 +104,7 @@ describe(@"WUTVShow mapping", ^{
             specify(^{ [[score.site.image      should] equal:[NSURL URLWithString:@"https://images-1.wuaki.tv/system/images/40/original/the-movie-database-1488534910.png"]]; });
         });
         
-        specify(^{ [[theValue(parsedTVShow.seasons.count) should] equal:theValue(1)]; });
+        specify(^{ [[parsedTVShow.seasons should] haveCountOf:1]; });
         context(@"with first season", ^{
             __block WUSeason *season;
             beforeEach(^{ season = parsedTVShow.seasons[0]; });
