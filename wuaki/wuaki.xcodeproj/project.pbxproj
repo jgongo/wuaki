@@ -96,6 +96,9 @@
 		1DA901711E912DE7001EA850 /* WUServiceMovieRetrievalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901701E912DE7001EA850 /* WUServiceMovieRetrievalSpec.m */; };
 		1DA901731E913204001EA850 /* response.movie.error.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA901721E913204001EA850 /* response.movie.error.json */; };
 		1DA901751E913211001EA850 /* response.movie.success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA901741E913211001EA850 /* response.movie.success.json */; };
+		1DA901781E9133D3001EA850 /* WUServiceTVShowRetrievalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901771E9133D3001EA850 /* WUServiceTVShowRetrievalSpec.m */; };
+		1DA9017A1E913588001EA850 /* response.tvShow.error.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA901791E913588001EA850 /* response.tvShow.error.json */; };
+		1DA9017C1E913593001EA850 /* response.tvShow.success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9017B1E913593001EA850 /* response.tvShow.success.json */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -282,6 +285,9 @@
 		1DA901701E912DE7001EA850 /* WUServiceMovieRetrievalSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUServiceMovieRetrievalSpec.m; sourceTree = "<group>"; };
 		1DA901721E913204001EA850 /* response.movie.error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.movie.error.json; sourceTree = "<group>"; };
 		1DA901741E913211001EA850 /* response.movie.success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.movie.success.json; sourceTree = "<group>"; };
+		1DA901771E9133D3001EA850 /* WUServiceTVShowRetrievalSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUServiceTVShowRetrievalSpec.m; sourceTree = "<group>"; };
+		1DA901791E913588001EA850 /* response.tvShow.error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.tvShow.error.json; sourceTree = "<group>"; };
+		1DA9017B1E913593001EA850 /* response.tvShow.success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.tvShow.success.json; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -328,6 +334,7 @@
 				1DA9014C1E910A0D001EA850 /* WUErrorMappingSpec.m */,
 				1DA901541E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m */,
 				1DA901701E912DE7001EA850 /* WUServiceMovieRetrievalSpec.m */,
+				1DA901771E9133D3001EA850 /* WUServiceTVShowRetrievalSpec.m */,
 			);
 			path = logic;
 			sourceTree = "<group>";
@@ -748,6 +755,8 @@
 				1DA9014F1E911310001EA850 /* response.frontPage.success.json */,
 				1DA901721E913204001EA850 /* response.movie.error.json */,
 				1DA901741E913211001EA850 /* response.movie.success.json */,
+				1DA901791E913588001EA850 /* response.tvShow.error.json */,
+				1DA9017B1E913593001EA850 /* response.tvShow.success.json */,
 			);
 			path = responses;
 			sourceTree = "<group>";
@@ -952,8 +961,10 @@
 				1D78A5001E8FC05A00C0790A /* streamInfo.json in Resources */,
 				1DA901731E913204001EA850 /* response.movie.error.json in Resources */,
 				1DA901471E910783001EA850 /* error.json in Resources */,
+				1DA9017C1E913593001EA850 /* response.tvShow.success.json in Resources */,
 				1DA901751E913211001EA850 /* response.movie.success.json in Resources */,
 				1DA901101E901A71001EA850 /* movie.json in Resources */,
+				1DA9017A1E913588001EA850 /* response.tvShow.error.json in Resources */,
 				1D2B36471E9001840009316C /* tvShow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1141,6 +1152,7 @@
 				1D78A4FB1E8FBD3000C0790A /* WUTestAssembly.m in Sources */,
 				1DA9016A1E91157D001EA850 /* INPHTTPRequestJSONBodyMatcher.m in Sources */,
 				1D78A4FE1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m in Sources */,
+				1DA901781E9133D3001EA850 /* WUServiceTVShowRetrievalSpec.m in Sources */,
 				1DA901711E912DE7001EA850 /* WUServiceMovieRetrievalSpec.m in Sources */,
 				1DA9016C1E91157D001EA850 /* INPHTTPRequestMethodMatcher.m in Sources */,
 				1DA901551E91141F001EA850 /* WUServiceFrontPageRetrievalSpec.m in Sources */,

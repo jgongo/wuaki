@@ -61,4 +61,14 @@ NSString *const WUWuakiErrorDomain = @"WUWuakiErrorDomain";
     }];
 }
 
+- (void)getTVShowDetails:(WUTVShow *)tvShow onSuccess:(TVShowSuccessBlock)onSuccess onError:(ErrorBlock)onError {
+    NSDictionary *parameters = @{@"classification_id": @6, @"device_identifier": @"web", @"user_status": @"visitor"};
+    typeof(self) __weak wself = self;
+    [self.objectManager getObject:tvShow path:nil parameters:parameters success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+        onSuccess([mappingResult firstObject]);
+    } failure:^(RKObjectRequestOperation *operation, NSError *error) {
+        [wself handleServerError:error performingOperation:operation withErrorBlock:onError];
+    }];
+}
+
 @end
