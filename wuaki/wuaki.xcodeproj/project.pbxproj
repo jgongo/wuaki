@@ -71,6 +71,14 @@
 		1DA901281E902249001EA850 /* WUMovie+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901271E902249001EA850 /* WUMovie+MappedEntity.m */; };
 		1DA9012B1E902267001EA850 /* WUPeople+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9012A1E902267001EA850 /* WUPeople+MappedEntity.m */; };
 		1DA9012E1E902277001EA850 /* WUVideoQuality+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9012D1E902277001EA850 /* WUVideoQuality+MappedEntity.m */; };
+		1DA901301E90F00B001EA850 /* frontPage.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9012F1E90F00B001EA850 /* frontPage.json */; };
+		1DA901331E90F080001EA850 /* WUList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901321E90F080001EA850 /* WUList.m */; };
+		1DA901361E90F4D4001EA850 /* WUFrontPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901351E90F4D4001EA850 /* WUFrontPage.m */; };
+		1DA901391E90F588001EA850 /* WUFrontPageMappingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901381E90F588001EA850 /* WUFrontPageMappingSpec.m */; };
+		1DA9013C1E90FB10001EA850 /* WUFrontPage+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9013B1E90FB10001EA850 /* WUFrontPage+MappedEntity.m */; };
+		1DA9013F1E90FB2F001EA850 /* WUList+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9013E1E90FB2F001EA850 /* WUList+MappedEntity.m */; };
+		1DA901421E90FB49001EA850 /* WUContent+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901411E90FB49001EA850 /* WUContent+MappedEntity.m */; };
+		1DA901451E90FD3E001EA850 /* WUContentTypeValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901441E90FD3E001EA850 /* WUContentTypeValueTransformer.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -215,6 +223,20 @@
 		1DA9012A1E902267001EA850 /* WUPeople+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUPeople+MappedEntity.m"; sourceTree = "<group>"; };
 		1DA9012C1E902277001EA850 /* WUVideoQuality+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUVideoQuality+MappedEntity.h"; sourceTree = "<group>"; };
 		1DA9012D1E902277001EA850 /* WUVideoQuality+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUVideoQuality+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA9012F1E90F00B001EA850 /* frontPage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frontPage.json; sourceTree = "<group>"; };
+		1DA901311E90F080001EA850 /* WUList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUList.h; sourceTree = "<group>"; };
+		1DA901321E90F080001EA850 /* WUList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUList.m; sourceTree = "<group>"; };
+		1DA901341E90F4D4001EA850 /* WUFrontPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUFrontPage.h; sourceTree = "<group>"; };
+		1DA901351E90F4D4001EA850 /* WUFrontPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUFrontPage.m; sourceTree = "<group>"; };
+		1DA901381E90F588001EA850 /* WUFrontPageMappingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUFrontPageMappingSpec.m; sourceTree = "<group>"; };
+		1DA9013A1E90FB10001EA850 /* WUFrontPage+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUFrontPage+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA9013B1E90FB10001EA850 /* WUFrontPage+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUFrontPage+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA9013D1E90FB2F001EA850 /* WUList+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUList+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA9013E1E90FB2F001EA850 /* WUList+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUList+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA901401E90FB49001EA850 /* WUContent+MappedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUContent+MappedEntity.h"; sourceTree = "<group>"; };
+		1DA901411E90FB49001EA850 /* WUContent+MappedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WUContent+MappedEntity.m"; sourceTree = "<group>"; };
+		1DA901431E90FD3E001EA850 /* WUContentTypeValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUContentTypeValueTransformer.h; sourceTree = "<group>"; };
+		1DA901441E90FD3E001EA850 /* WUContentTypeValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUContentTypeValueTransformer.m; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -281,6 +303,7 @@
 		1D78A4E81E8FB6ED00C0790A /* mappings */ = {
 			isa = PBXGroup;
 			children = (
+				1DA901381E90F588001EA850 /* WUFrontPageMappingSpec.m */,
 				1DA901121E901AAD001EA850 /* WUMovieMappingSpec.m */,
 				1D78A4FD1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m */,
 				1D78A4EA1E8FB75100C0790A /* WUStreamingMappingSpec.m */,
@@ -314,16 +337,24 @@
 				1DA901151E902164001EA850 /* WUAudioQuality+MappedEntity.m */,
 				1D2B364B1E9007C90009316C /* WUClassification+MappedEntity.h */,
 				1D2B364C1E9007C90009316C /* WUClassification+MappedEntity.m */,
+				1DA901401E90FB49001EA850 /* WUContent+MappedEntity.h */,
+				1DA901411E90FB49001EA850 /* WUContent+MappedEntity.m */,
+				1DA901431E90FD3E001EA850 /* WUContentTypeValueTransformer.h */,
+				1DA901441E90FD3E001EA850 /* WUContentTypeValueTransformer.m */,
 				1DA9011A1E902204001EA850 /* WUDRMType+MappedEntity.h */,
 				1DA9011B1E902204001EA850 /* WUDRMType+MappedEntity.m */,
+				1DA9013A1E90FB10001EA850 /* WUFrontPage+MappedEntity.h */,
+				1DA9013B1E90FB10001EA850 /* WUFrontPage+MappedEntity.m */,
+				1D2B36541E9008EA0009316C /* WUGenre+MappedEntity.h */,
+				1D2B36551E9008EA0009316C /* WUGenre+MappedEntity.m */,
 				1D2B364E1E9008530009316C /* WUIcon+MappedEntity.h */,
 				1D2B364F1E9008530009316C /* WUIcon+MappedEntity.m */,
 				1D2B36511E9008A00009316C /* WUImage+MappedEntity.h */,
 				1D2B36521E9008A00009316C /* WUImage+MappedEntity.m */,
-				1D2B36541E9008EA0009316C /* WUGenre+MappedEntity.h */,
-				1D2B36551E9008EA0009316C /* WUGenre+MappedEntity.m */,
 				1DA9011D1E90221A001EA850 /* WULanguage+MappedEntity.h */,
 				1DA9011E1E90221A001EA850 /* WULanguage+MappedEntity.m */,
+				1DA9013D1E90FB2F001EA850 /* WUList+MappedEntity.h */,
+				1DA9013E1E90FB2F001EA850 /* WUList+MappedEntity.m */,
 				1DA901201E90222C001EA850 /* WUMedia+MappedEntity.h */,
 				1DA901211E90222C001EA850 /* WUMedia+MappedEntity.m */,
 				1DA901231E902239001EA850 /* WUMediaInfo+MappedEntity.h */,
@@ -482,14 +513,18 @@
 				1DA9010D1E90198E001EA850 /* WUContent.m */,
 				1DA901091E901883001EA850 /* WUDRMType.h */,
 				1DA9010A1E901883001EA850 /* WUDRMType.m */,
+				1DA901341E90F4D4001EA850 /* WUFrontPage.h */,
+				1DA901351E90F4D4001EA850 /* WUFrontPage.m */,
+				1D2B36341E8FF95C0009316C /* WUGenre.h */,
+				1D2B36351E8FF95C0009316C /* WUGenre.m */,
 				1D2B36371E8FFBB80009316C /* WUIcon.h */,
 				1D2B36381E8FFBB80009316C /* WUIcon.m */,
 				1D2B363A1E8FFDEF0009316C /* WUImage.h */,
 				1D2B363B1E8FFDEF0009316C /* WUImage.m */,
-				1D2B36341E8FF95C0009316C /* WUGenre.h */,
-				1D2B36351E8FF95C0009316C /* WUGenre.m */,
 				1DA900FD1E90177B001EA850 /* WULanguage.h */,
 				1DA900FE1E90177B001EA850 /* WULanguage.m */,
+				1DA901311E90F080001EA850 /* WUList.h */,
+				1DA901321E90F080001EA850 /* WUList.m */,
 				1DA900F71E90129B001EA850 /* WUMedia.h */,
 				1DA900F81E90129B001EA850 /* WUMedia.m */,
 				1DA900FA1E9016E1001EA850 /* WUMediaInfo.h */,
@@ -625,6 +660,7 @@
 				1D78A4FF1E8FC05A00C0790A /* streamInfo.json */,
 				1D1C236A1E8FED4A00B431CF /* streaming.json */,
 				1D2B36461E9001840009316C /* tvShow.json */,
+				1DA9012F1E90F00B001EA850 /* frontPage.json */,
 			);
 			path = mappings;
 			sourceTree = "<group>";
@@ -837,6 +873,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D1C236B1E8FED4A00B431CF /* streaming.json in Resources */,
+				1DA901301E90F00B001EA850 /* frontPage.json in Resources */,
 				1D78A5001E8FC05A00C0790A /* streamInfo.json in Resources */,
 				1DA901101E901A71001EA850 /* movie.json in Resources */,
 				1D2B36471E9001840009316C /* tvShow.json in Resources */,
@@ -961,22 +998,27 @@
 				1D2B36531E9008A00009316C /* WUImage+MappedEntity.m in Sources */,
 				1D2B36331E8FF7C90009316C /* WUClassification.m in Sources */,
 				1D2B36391E8FFBB80009316C /* WUIcon.m in Sources */,
+				1DA901451E90FD3E001EA850 /* WUContentTypeValueTransformer.m in Sources */,
 				1DA901251E902239001EA850 /* WUMediaInfo+MappedEntity.m in Sources */,
+				1DA901331E90F080001EA850 /* WUList.m in Sources */,
 				1DA900F61E900FBD001EA850 /* WUPeople.m in Sources */,
 				1D2B36421E8FFEB40009316C /* WUSite.m in Sources */,
 				1D2B36301E8FF2E60009316C /* WUTVShow.m in Sources */,
 				1DA9010E1E90198E001EA850 /* WUContent.m in Sources */,
+				1DA901421E90FB49001EA850 /* WUContent+MappedEntity.m in Sources */,
 				1DA900F91E90129B001EA850 /* WUMedia.m in Sources */,
 				1DA9010B1E901883001EA850 /* WUDRMType.m in Sources */,
 				1DA9012E1E902277001EA850 /* WUVideoQuality+MappedEntity.m in Sources */,
 				1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */,
 				1D2B36621E900C080009316C /* WUTVShow+MappedEntity.m in Sources */,
+				1DA901361E90F4D4001EA850 /* WUFrontPage.m in Sources */,
 				1D78A4E01E8FB27400C0790A /* WUStreaming.m in Sources */,
 				1D2B365F1E900A6C0009316C /* WUSite+MappedEntity.m in Sources */,
 				1D78A4E31E8FB28400C0790A /* WUStreamInfo.m in Sources */,
 				1D2B365C1E900A5D0009316C /* WUSeason+MappedEntity.m in Sources */,
 				1DA900FF1E90177B001EA850 /* WULanguage.m in Sources */,
 				1DA901221E90222C001EA850 /* WUMedia+MappedEntity.m in Sources */,
+				1DA9013C1E90FB10001EA850 /* WUFrontPage+MappedEntity.m in Sources */,
 				1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */,
 				1DA900FC1E9016E1001EA850 /* WUMediaInfo.m in Sources */,
 				1D1C23631E8FCB4300B431CF /* WUService.m in Sources */,
@@ -998,6 +1040,7 @@
 				1D2B36591E9009E40009316C /* WUScore+MappedEntity.m in Sources */,
 				1D2B36451E8FFF560009316C /* WUSeason.m in Sources */,
 				1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */,
+				1DA9013F1E90FB2F001EA850 /* WUList+MappedEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1052,7 @@
 				1D78A4EB1E8FB75100C0790A /* WUStreamingMappingSpec.m in Sources */,
 				1D2B364A1E9001DB0009316C /* WUTVShowMappingSpec.m in Sources */,
 				1D78A4EF1E8FB80F00C0790A /* INRestKitHelper.m in Sources */,
+				1DA901391E90F588001EA850 /* WUFrontPageMappingSpec.m in Sources */,
 				1DA901131E901AAD001EA850 /* WUMovieMappingSpec.m in Sources */,
 				1D78A4FB1E8FBD3000C0790A /* WUTestAssembly.m in Sources */,
 				1D78A4FE1E8FBE7400C0790A /* WUStreamInfoMappingSpec.m in Sources */,
