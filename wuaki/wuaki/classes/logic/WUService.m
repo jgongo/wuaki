@@ -12,7 +12,15 @@
 #import "WULogLevel.h"
 
 #import <RestKit/RestKit.h>
+#import "RKObjectManager+WuakiConfiguration.h"
 #import "WUFrontPage.h"
+#import "WUMovie.h"
+#import "WUMedia.h"
+#import "WUMediaInfo.h"
+#import "WULanguage.h"
+#import "WUVideoQuality.h"
+#import "WUAudioQuality.h"
+#import "WUStreaming.h"
 
 
 NSString *const WUWuakiErrorDomain = @"WUWuakiErrorDomain";
@@ -65,6 +73,32 @@ NSString *const WUWuakiErrorDomain = @"WUWuakiErrorDomain";
     NSDictionary *parameters = @{@"classification_id": @6, @"device_identifier": @"web", @"user_status": @"visitor"};
     typeof(self) __weak wself = self;
     [self.objectManager getObject:tvShow path:nil parameters:parameters success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+        onSuccess([mappingResult firstObject]);
+    } failure:^(RKObjectRequestOperation *operation, NSError *error) {
+        [wself handleServerError:error performingOperation:operation withErrorBlock:onError];
+    }];
+}
+
+- (void)getDefaultTrailer:(WUMovie *)movie onSuccess:(StreamingSuccessBlock)onSuccess onError:(ErrorBlock)onError {
+    NSDictionary *parameters = @{
+                                 @"classification_id": @6,
+                                 @"device_identifier": @"web",
+                                 @"device_serial": @"AABBCCDDCC112233",
+                                 @"player": @"web:PD-NONE",
+                                 @"video_type": @"trailer",
+                                 @"content_id": movie.identifier,
+                                 @"content_type": @"movies",
+                                 @"audio_language": movie.media.trailers[0].audioLanguages[0].identifier,
+                                 @"subtitle_language": movie.media.trailers[0].subtitleLanguages[0].identifier,
+                                 @"video_quality": movie.media.trailers[0].videoQualities[0].identifier,
+                                 @"audio_quality": movie.media.trailers[0].audioQualities[0].identifier
+                                 };
+    // We build the path manually becasuse RestKit puts both object and parameters in request body instead of URL query
+    NSString *pathPattern = [self.objectManager.router.routeSet routeForName:ROUTE_STREAMING].pathPattern;
+    NSString *path = [NSString stringWithFormat:@"%@?%@", pathPattern, AFRKQueryStringFromParametersWithEncoding(parameters, self.objectManager.HTTPClient.stringEncoding)];
+    
+    typeof(self) __weak wself = self;
+    [self.objectManager postObject:nil path:path parameters:nil success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
         onSuccess([mappingResult firstObject]);
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         [wself handleServerError:error performingOperation:operation withErrorBlock:onError];

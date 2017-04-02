@@ -22,6 +22,7 @@ FOUNDATION_EXTERN NSString *const WUWuakiErrorDomain;
 typedef void (^FrontPageSuccessBlock)(WUFrontPage *frontPage);
 typedef void (^MovieSuccessBlock)(WUMovie *movie);
 typedef void (^TVShowSuccessBlock)(WUTVShow *movie);
+typedef void (^StreamingSuccessBlock)(WUStreaming *movie);
 typedef void (^ErrorBlock)(NSError *error);
 
 
@@ -30,4 +31,5 @@ typedef void (^ErrorBlock)(NSError *error);
 - (void)getFrontPageOnSuccess:(FrontPageSuccessBlock)onSuccess onError:(ErrorBlock)onError;
 - (void)getMovieDetails:(WUMovie *)movie onSuccess:(MovieSuccessBlock)onSuccess onError:(ErrorBlock)onError;
 - (void)getTVShowDetails:(WUTVShow *)tvShow onSuccess:(TVShowSuccessBlock)onSuccess onError:(ErrorBlock)onError;
+- (void)getDefaultTrailer:(WUMovie *)movie onSuccess:(StreamingSuccessBlock)onSuccess onError:(ErrorBlock)onError;
 @end

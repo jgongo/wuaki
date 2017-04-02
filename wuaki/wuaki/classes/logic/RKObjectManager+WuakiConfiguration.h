@@ -9,6 +9,9 @@
 #import <RestKit/RestKit.h>
 
 
+FOUNDATION_EXTERN NSString *const ROUTE_STREAMING;
+
+
 @protocol INMappingCatalog;
 
 

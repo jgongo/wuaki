@@ -13,12 +13,17 @@
 #import "WUFrontPage.h"
 #import "WUMovie.h"
 #import "WUTVShow.h"
+#import "WUStreaming.h"
 #import "WUError.h"
+
+
+NSString *const ROUTE_STREAMING = @"route.streaming";
 
 
 static NSString *const PATH_FRONT_PAGE = @"gardens/portada";
 static NSString *const PATH_MOVIE = @"movies/:identifier";
 static NSString *const PATH_TV_SHOW = @"tv_shows/:identifier";
+static NSString *const PATH_STREAMING = @"streamings";
 
 
 @implementation RKObjectManager (WuakiConfiguration)
@@ -51,6 +56,10 @@ static NSString *const PATH_TV_SHOW = @"tv_shows/:identifier";
     // TV show
     [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUTVShow class]] method:RKRequestMethodGET pathPattern:PATH_TV_SHOW keyPath:@"data" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)]];
     [self.router.routeSet addRoute:[RKRoute routeWithClass:[WUTVShow class] pathPattern:PATH_TV_SHOW method:RKRequestMethodGET]];
+    
+    // Streaming (trailer)
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUStreaming class]] method:RKRequestMethodPOST pathPattern:PATH_STREAMING keyPath:@"data" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)]];
+    [self.router.routeSet addRoute:[RKRoute routeWithName:ROUTE_STREAMING pathPattern:PATH_STREAMING method:RKRequestMethodPOST]];
 }
 
 @end

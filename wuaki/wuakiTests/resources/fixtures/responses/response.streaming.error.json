@@ -1,0 +1,9 @@
+{
+  "errors": [
+    {
+      "field": "subtitle_language",
+      "code": "exception.invalid_subtitle_language",
+      "message": "Lo sentimos, ha ocurrido un error interno de protocolo"
+    }
+  ]
+}
