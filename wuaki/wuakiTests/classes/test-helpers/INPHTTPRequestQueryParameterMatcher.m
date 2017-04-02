@@ -30,16 +30,20 @@
 #pragma mark Matching
 
 - (BOOL)evaluateRequest:(NSURLRequest *)request {
-    NSString *parameter = [NSString stringWithFormat:@"%@=%@", [self.parameter stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]], [self.value stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
-    NSRange parameterRange = [request.URL.query rangeOfString:parameter];
-    if (parameterRange.location != NSNotFound) {
-        if (parameterRange.location + parameterRange.length == request.URL.query.length) {
-            // Parameter was at the end of the query string
-            return YES;
+    if (request.URL.query) {
+        NSString *parameter = [NSString stringWithFormat:@"%@=%@", [self.parameter stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]], [self.value stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
+        NSRange parameterRange = [request.URL.query rangeOfString:parameter];
+        if (parameterRange.location != NSNotFound) {
+            if (parameterRange.location + parameterRange.length == request.URL.query.length) {
+                // Parameter was at the end of the query string
+                return YES;
+            } else {
+                // Parameter was not at the end of the query string, next character must be & or # to match
+                NSString *firstCharacterAfterParameter = [request.URL.query substringWithRange:NSMakeRange(parameterRange.location + parameterRange.length, 1)];
+                return [firstCharacterAfterParameter isEqualToString:@"&"] || [firstCharacterAfterParameter isEqualToString:@"#"];
+            }
         } else {
-            // Parameter was not at the end of the query string, next character must be & or # to match
-            NSString *firstCharacterAfterParameter = [request.URL.query substringWithRange:NSMakeRange(parameterRange.location + parameterRange.length, 1)];
-            return [firstCharacterAfterParameter isEqualToString:@"&"] || [firstCharacterAfterParameter isEqualToString:@"#"];
+            return NO;
         }
     } else {
         return NO;
