@@ -10,6 +10,9 @@
 #import "WUObject.h"
 
 
+@class WUStreamInfo;
+
+
 @interface WUStreaming : WUObject
-@property (nonatomic, strong) NSArray *streams;
+@property (nonatomic, strong) NSArray<WUStreamInfo *> *streams;
 @end

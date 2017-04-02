@@ -169,7 +169,7 @@ describe(@"WUMovie mapping", ^{
             
             specify(^{ [[theValue(mediaInfo.audioQualities.count) should] equal:theValue(1)]; });
             context(@"with first audio quality", ^{
-                __block WUVideoQuality *quality;
+                __block WUAudioQuality *quality;
                 beforeEach(^{ quality = mediaInfo.audioQualities[0]; });
                 specify(^{ [[quality.identifier   should] equal:@"2.0"]; });
                 specify(^{ [[quality.name         should] equal:@"2.0 (Stereo)"]; });
@@ -177,7 +177,7 @@ describe(@"WUMovie mapping", ^{
             });
             
             specify(^{ [[theValue(mediaInfo.streamingDRMTypes.count) should] equal:theValue(1)]; });
-            specify(^{ [[((WUDRMType *)mediaInfo.streamingDRMTypes[0]).identifier should] equal:@"PD-NONE"]; });
+            specify(^{ [[mediaInfo.streamingDRMTypes[0].identifier should] equal:@"PD-NONE"]; });
         });
     });
 });

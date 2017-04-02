@@ -10,6 +10,7 @@
 
 
 @class WUMedia;
+@class WUPeople;
 
 
 @interface WUMovie : WUContent
@@ -20,8 +21,8 @@
 @property (nonatomic        ) NSUInteger durationInMinutes;
 @property (nonatomic        ) NSUInteger durationInSeconds;
 
-@property (nonatomic, copy  ) NSArray   *directors;
-@property (nonatomic, copy  ) NSArray   *actors;
+@property (nonatomic, copy  ) NSArray<WUPeople *> *directors;
+@property (nonatomic, copy  ) NSArray<WUPeople *> *actors;
 
 @property (nonatomic, strong) WUMedia   *media;
 @end

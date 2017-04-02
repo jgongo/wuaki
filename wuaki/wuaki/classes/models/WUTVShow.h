@@ -9,6 +9,9 @@
 #import "WUContent.h"
 
 
+@class WUSeason;
+
+
 @interface WUTVShow : WUContent
-@property (nonatomic, copy  ) NSArray *seasons;
+@property (nonatomic, copy  ) NSArray<WUSeason *> *seasons;
 @end

@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
+@class WUMediaInfo;
+
+
 @interface WUMedia : NSObject
-@property (nonatomic, copy  ) NSArray *trailers;
-@property (nonatomic, copy  ) NSArray *previews;
-@property (nonatomic, copy  ) NSArray *streams;
-@property (nonatomic, copy  ) NSArray *offlineStreams;
+@property (nonatomic, copy  ) NSArray<WUMediaInfo *> *trailers;
+@property (nonatomic, copy  ) NSArray<WUMediaInfo *> *previews;
+@property (nonatomic, copy  ) NSArray<WUMediaInfo *> *streams;
+@property (nonatomic, copy  ) NSArray<WUMediaInfo *> *offlineStreams;
 @end

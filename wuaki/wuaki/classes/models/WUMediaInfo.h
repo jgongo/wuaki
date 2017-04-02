@@ -9,10 +9,16 @@
 #import <Foundation/Foundation.h>
 
 
+@class WULanguage;
+@class WUVideoQuality;
+@class WUAudioQuality;
+@class WUDRMType;
+
+
 @interface WUMediaInfo : NSObject
-@property (nonatomic, copy  ) NSArray *audioLanguages;
-@property (nonatomic, copy  ) NSArray *subtitleLanguages;
-@property (nonatomic, copy  ) NSArray *videoQualities;
-@property (nonatomic, copy  ) NSArray *audioQualities;
-@property (nonatomic, copy  ) NSArray *streamingDRMTypes;
+@property (nonatomic, copy  ) NSArray<WULanguage *>     *audioLanguages;
+@property (nonatomic, copy  ) NSArray<WULanguage *>     *subtitleLanguages;
+@property (nonatomic, copy  ) NSArray<WUVideoQuality *> *videoQualities;
+@property (nonatomic, copy  ) NSArray<WUAudioQuality *> *audioQualities;
+@property (nonatomic, copy  ) NSArray<WUDRMType *>      *streamingDRMTypes;
 @end
