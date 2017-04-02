@@ -11,10 +11,12 @@
 #import <objc/runtime.h>
 
 #import "WUFrontPage.h"
+#import "WUMovie.h"
 #import "WUError.h"
 
 
 static NSString *const PATH_FRONT_PAGE = @"gardens/portada";
+static NSString *const PATH_MOVIE = @"movies/:identifier";
 
 
 @implementation RKObjectManager (WuakiConfiguration)
@@ -40,6 +42,9 @@ static NSString *const PATH_FRONT_PAGE = @"gardens/portada";
     [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUFrontPage class]] method:RKRequestMethodGET pathPattern:PATH_FRONT_PAGE keyPath:@"data" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)]];
     [self.router.routeSet addRoute:[RKRoute routeWithClass:[WUFrontPage class] pathPattern:PATH_FRONT_PAGE method:RKRequestMethodGET]];
     
+    // Movie
+    [self addResponseDescriptor:[RKResponseDescriptor responseDescriptorWithMapping:[self.mappingCatalog mappingForClass:[WUMovie class]] method:RKRequestMethodGET pathPattern:PATH_MOVIE keyPath:@"data" statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)]];
+    [self.router.routeSet addRoute:[RKRoute routeWithClass:[WUMovie class] pathPattern:PATH_MOVIE method:RKRequestMethodGET]];
 }
 
 @end

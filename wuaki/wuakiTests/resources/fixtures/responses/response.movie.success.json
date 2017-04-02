@@ -1,0 +1,474 @@
+{
+    "meta": {
+        "rights": [],
+        "heartbeats": [],
+        "already_seens": [],
+        "wishlists": [],
+        "warnings": []
+    },
+    "data": {
+        "type": "movies",
+        "id": "la-luz-de-mis-ojos",
+        "numerical_id": 47664,
+        "title": "La luz de mis ojos",
+        "original_title": "Apple of my eye",
+        "year": 2017,
+        "short_plot": "Cuenta la historia de Bailey, una joven a la que le apasiona la hípica, que sufre un accidente que la deja fuera de sus sueños. Sus padres tratarán de ayudarle a recuperarse con la ayuda de los animales.",
+        "plot": "Cuenta la historia de Bailey, una joven a la que le apasiona la hípica, que sufre un accidente que la deja fuera de sus sueños. Sus padres tratarán de ayudarle a recuperarse con la ayuda de los animales.",
+        "duration": 84,
+        "highlight": null,
+        "ultraviolet_enabled": false,
+        "duration_in_seconds": 5065,
+        "actors": [
+                   {
+                   "type": "people",
+                   "id": "amy-smart",
+                   "numerical_id": 1937,
+                   "photo": "https://images-3.wuaki.tv/system/photos/1937/original/amy-smart-1464874815.jpeg",
+                   "name": "Amy Smart",
+                   "born_at": null
+                   },
+                   {
+                   "type": "people",
+                   "id": "burt-reynolds",
+                   "numerical_id": 800,
+                   "photo": "https://images-1.wuaki.tv/system/photos/800/original/burt-reynolds-1464866599.jpeg",
+                   "name": "Burt Reynolds",
+                   "born_at": null
+                   },
+                   {
+                   "type": "people",
+                   "id": "avery-arendes",
+                   "numerical_id": 151437,
+                   "photo": null,
+                   "name": "Avery Arendes",
+                   "born_at": null
+                   },
+                   {
+                   "type": "people",
+                   "id": "aj-michalka",
+                   "numerical_id": 151457,
+                   "photo": null,
+                   "name": "AJ Michalka",
+                   "born_at": null
+                   },
+                   {
+                   "type": "people",
+                   "id": "liam-mcintyre",
+                   "numerical_id": 142096,
+                   "photo": "https://images-0.wuaki.tv/system/photos/142096/original/liam-mcintyre-1465490255.jpeg",
+                   "name": "Liam McIntyre",
+                   "born_at": null
+                   },
+                   {
+                   "type": "people",
+                   "id": "charlie-barnett",
+                   "numerical_id": 136926,
+                   "photo": "https://images-3.wuaki.tv/system/photos/136926/original/charlie-barnett-1465294765.jpeg",
+                   "name": "Charlie Barnett",
+                   "born_at": null
+                   }
+                   ],
+        "awards": [],
+        "classification": {
+            "type": "classifications",
+            "id": "1",
+            "numerical_id": 1,
+            "name": "T",
+            "age": 0,
+            "adult": false,
+            "description": "Mostrar sólo contenidos autorizados para todos los públicos",
+            "default": false
+        },
+        "countries": [
+                      {
+                      "type": "countries",
+                      "id": "united-states",
+                      "numerical_id": 3,
+                      "name": "Estados Unidos"
+                      }
+                      ],
+        "extras": [],
+        "directors": [
+                      {
+                      "type": "people",
+                      "id": "castille-landon",
+                      "numerical_id": 151436,
+                      "photo": null,
+                      "name": "Castille Landon",
+                      "born_at": null
+                      }
+                      ],
+        "genres": [
+                   {
+                   "type": "genres",
+                   "id": "cine-familiar",
+                   "numerical_id": 41,
+                   "name": "Cine familiar",
+                   "adult": false,
+                   "erotic": false,
+                   "additional_images": {
+                   "icon": "https://images-2.wuaki.tv/system/brandable_photos/6357/original/1461243437-1461243437.png"
+                   }
+                   },
+                   {
+                   "type": "genres",
+                   "id": "drama",
+                   "numerical_id": 28,
+                   "name": "Drama",
+                   "adult": false,
+                   "erotic": false,
+                   "additional_images": {
+                   "icon": "https://images-2.wuaki.tv/system/brandable_photos/6364/original/1461244827-1461244827.png"
+                   }
+                   }
+                   ],
+        "groups": [],
+        "images": {
+            "artwork": "https://images-3.wuaki.tv/system/artworks/47664/master/la-luz-de-mis-ojos-1483954870.jpeg",
+            "snapshot": "https://images-0.wuaki.tv/system/shots/73331/original/apple-of-my-eye-1483954853.jpeg",
+            "ribbons": []
+        },
+        "offline_enabled_for_est": true,
+        "offline_enabled_for_rent": true,
+        "offline_enabled_for_svod": false,
+        "order_options": [
+                          {
+                          "type": "order_options",
+                          "id": "284820",
+                          "numerical_id": 284820,
+                          "legacy_instance_type": "PurchaseOption",
+                          "legacy_instance_id": 377081,
+                          "price": "3,99 €",
+                          "points": {
+                          "cost": 399,
+                          "reward": 3
+                          },
+                          "purchase_type": {
+                          "type": "purchase_types",
+                          "id": "1",
+                          "numerical_id": 1,
+                          "is_recurring": false,
+                          "kind": "rental",
+                          "expires_after_in_seconds": 172800,
+                          "available_time_in_seconds": 172800
+                          },
+                          "video_quality": {
+                          "type": "video_qualities",
+                          "id": "SD",
+                          "numerical_id": 2,
+                          "name": "SD",
+                          "abbr": "SD",
+                          "position": 0
+                          },
+                          "external_tiers": [
+                                             {
+                                             "type": "itunes",
+                                             "id": "tv.wuaki.tier4",
+                                             "price": "3,99 €"
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "order_options",
+                          "id": "284819",
+                          "numerical_id": 284819,
+                          "legacy_instance_type": "PurchaseOption",
+                          "legacy_instance_id": 377080,
+                          "price": "4,99 €",
+                          "points": {
+                          "cost": 499,
+                          "reward": 4
+                          },
+                          "purchase_type": {
+                          "type": "purchase_types",
+                          "id": "1",
+                          "numerical_id": 1,
+                          "is_recurring": false,
+                          "kind": "rental",
+                          "expires_after_in_seconds": 172800,
+                          "available_time_in_seconds": 172800
+                          },
+                          "video_quality": {
+                          "type": "video_qualities",
+                          "id": "HD",
+                          "numerical_id": 1,
+                          "name": "HD",
+                          "abbr": "HD",
+                          "position": 1
+                          },
+                          "external_tiers": [
+                                             {
+                                             "type": "itunes",
+                                             "id": "tv.wuaki.tier5",
+                                             "price": "4,99 €"
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "order_options",
+                          "id": "284822",
+                          "numerical_id": 284822,
+                          "legacy_instance_type": "PurchaseOption",
+                          "legacy_instance_id": 377083,
+                          "price": "9,99 €",
+                          "points": {
+                          "cost": 999,
+                          "reward": 9
+                          },
+                          "purchase_type": {
+                          "type": "purchase_types",
+                          "id": "2",
+                          "numerical_id": 2,
+                          "is_recurring": false,
+                          "kind": "purchase",
+                          "expires_after_in_seconds": null,
+                          "available_time_in_seconds": null
+                          },
+                          "video_quality": {
+                          "type": "video_qualities",
+                          "id": "SD",
+                          "numerical_id": 2,
+                          "name": "SD",
+                          "abbr": "SD",
+                          "position": 0
+                          },
+                          "external_tiers": [
+                                             {
+                                             "type": "itunes",
+                                             "id": "tv.wuaki.tier10",
+                                             "price": "9,99 €"
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "order_options",
+                          "id": "284821",
+                          "numerical_id": 284821,
+                          "legacy_instance_type": "PurchaseOption",
+                          "legacy_instance_id": 377082,
+                          "price": "13,99 €",
+                          "points": {
+                          "cost": 1399,
+                          "reward": 13
+                          },
+                          "purchase_type": {
+                          "type": "purchase_types",
+                          "id": "2",
+                          "numerical_id": 2,
+                          "is_recurring": false,
+                          "kind": "purchase",
+                          "expires_after_in_seconds": null,
+                          "available_time_in_seconds": null
+                          },
+                          "video_quality": {
+                          "type": "video_qualities",
+                          "id": "HD",
+                          "numerical_id": 1,
+                          "name": "HD",
+                          "abbr": "HD",
+                          "position": 1
+                          },
+                          "external_tiers": [
+                                             {
+                                             "type": "itunes",
+                                             "id": "tv.wuaki.tier14",
+                                             "price": "13,99 €"
+                                             }
+                                             ]
+                          }
+                          ],
+        "rating": {
+            "average": 0,
+            "scale": 5
+        },
+        "reviews": [],
+        "scores": [],
+        "subscription_plans": [],
+        "svod_schedules": [],
+        "tags": [],
+        "view_options": {
+            "public": {
+                "trailers": [
+                             {
+                             "audio_languages": [
+                                                 {
+                                                 "type": "languages",
+                                                 "id": "SPA",
+                                                 "numerical_id": 57,
+                                                 "name": "Español",
+                                                 "abbr": "SPA"
+                                                 }
+                                                 ],
+                             "subtitle_languages": [
+                                                    {
+                                                    "type": "languages",
+                                                    "id": "MIS",
+                                                    "numerical_id": 1,
+                                                    "name": "Sin subtítulos",
+                                                    "abbr": "MIS"
+                                                    }
+                                                    ],
+                             "video_qualities": [
+                                                 {
+                                                 "type": "video_qualities",
+                                                 "id": "SD",
+                                                 "numerical_id": 2,
+                                                 "name": "SD",
+                                                 "position": 0,
+                                                 "abbr": "SD"
+                                                 }
+                                                 ],
+                             "audio_qualities": [
+                                                 {
+                                                 "type": "audio_qualities",
+                                                 "id": "2.0",
+                                                 "numerical_id": 2,
+                                                 "name": "2.0 (Stereo)",
+                                                 "abbr": "2.0"
+                                                 }
+                                                 ],
+                             "streaming_drm_types": [
+                                                     {
+                                                     "type": "streaming_drm_types",
+                                                     "id": "PD-NONE"
+                                                     }
+                                                     ]
+                             }
+                             ],
+                "previews": []
+            },
+            "private": {
+                "streams": [
+                            {
+                            "audio_languages": [
+                                                {
+                                                "type": "languages",
+                                                "id": "ENG",
+                                                "numerical_id": 18,
+                                                "name": "Inglés",
+                                                "abbr": "ENG"
+                                                },
+                                                {
+                                                "type": "languages",
+                                                "id": "SPA",
+                                                "numerical_id": 57,
+                                                "name": "Español",
+                                                "abbr": "SPA"
+                                                }
+                                                ],
+                            "subtitle_languages": [
+                                                   {
+                                                   "type": "languages",
+                                                   "id": "MIS",
+                                                   "numerical_id": 1,
+                                                   "name": "Sin subtítulos",
+                                                   "abbr": "MIS"
+                                                   }
+                                                   ],
+                            "video_qualities": [
+                                                {
+                                                "type": "video_qualities",
+                                                "id": "SD",
+                                                "numerical_id": 2,
+                                                "name": "SD",
+                                                "position": 0,
+                                                "abbr": "SD"
+                                                },
+                                                {
+                                                "type": "video_qualities",
+                                                "id": "HD",
+                                                "numerical_id": 1,
+                                                "name": "HD",
+                                                "position": 1,
+                                                "abbr": "HD"
+                                                }
+                                                ],
+                            "audio_qualities": [
+                                                {
+                                                "type": "audio_qualities",
+                                                "id": "2.0",
+                                                "numerical_id": 2,
+                                                "name": "2.0 (Stereo)",
+                                                "abbr": "2.0"
+                                                }
+                                                ],
+                            "streaming_drm_types": [
+                                                    {
+                                                    "type": "streaming_drm_types",
+                                                    "id": "PD-WVN"
+                                                    },
+                                                    {
+                                                    "type": "streaming_drm_types",
+                                                    "id": "SS-PR"
+                                                    },
+                                                    {
+                                                    "type": "streaming_drm_types",
+                                                    "id": "DASH-CENC"
+                                                    }
+                                                    ]
+                            }
+                            ],
+                "offline_streams": [
+                                    {
+                                    "audio_languages": [
+                                                        {
+                                                        "type": "languages",
+                                                        "id": "ENG",
+                                                        "numerical_id": 18,
+                                                        "name": "Inglés",
+                                                        "abbr": "ENG"
+                                                        },
+                                                        {
+                                                        "type": "languages",
+                                                        "id": "SPA",
+                                                        "numerical_id": 57,
+                                                        "name": "Español",
+                                                        "abbr": "SPA"
+                                                        }
+                                                        ],
+                                    "subtitle_languages": [
+                                                           {
+                                                           "type": "languages",
+                                                           "id": "MIS",
+                                                           "numerical_id": 1,
+                                                           "name": "Sin subtítulos",
+                                                           "abbr": "MIS"
+                                                           }
+                                                           ],
+                                    "video_qualities": [
+                                                        {
+                                                        "type": "video_qualities",
+                                                        "id": "SD",
+                                                        "numerical_id": 2,
+                                                        "name": "SD",
+                                                        "position": 0,
+                                                        "abbr": "SD"
+                                                        }
+                                                        ],
+                                    "audio_qualities": [
+                                                        {
+                                                        "type": "audio_qualities",
+                                                        "id": "2.0",
+                                                        "numerical_id": 2,
+                                                        "name": "2.0 (Stereo)",
+                                                        "abbr": "2.0"
+                                                        }
+                                                        ],
+                                    "streaming_drm_types": [
+                                                            {
+                                                            "type": "streaming_drm_types",
+                                                            "id": "PD-WVN"
+                                                            },
+                                                            {
+                                                            "type": "streaming_drm_types",
+                                                            "id": "PD-PR"
+                                                            }
+                                                            ]
+                                    }
+                                    ]
+            }
+        },
+        "additional_images": {}
+    }
+}

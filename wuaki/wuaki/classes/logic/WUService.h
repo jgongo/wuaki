@@ -14,14 +14,17 @@ FOUNDATION_EXTERN NSString *const WUWuakiErrorDomain;
 
 @class RKObjectManager;
 @class WUFrontPage;
+@class WUMovie;
 @class WUStreaming;
 
 
 typedef void (^FrontPageSuccessBlock)(WUFrontPage *frontPage);
+typedef void (^MovieSuccessBlock)(WUMovie *movie);
 typedef void (^ErrorBlock)(NSError *error);
 
 
 @interface WUService : NSObject
 @property (nonatomic, strong) RKObjectManager *objectManager;
 - (void)getFrontPageOnSuccess:(FrontPageSuccessBlock)onSuccess onError:(ErrorBlock)onError;
+- (void)getMovieDetails:(WUMovie *)movie onSuccess:(MovieSuccessBlock)onSuccess onError:(ErrorBlock)onError;
 @end

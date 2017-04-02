@@ -51,4 +51,14 @@ NSString *const WUWuakiErrorDomain = @"WUWuakiErrorDomain";
     }];
 }
 
+- (void)getMovieDetails:(WUMovie *)movie onSuccess:(MovieSuccessBlock)onSuccess onError:(ErrorBlock)onError {
+    NSDictionary *parameters = @{@"classification_id": @6, @"device_identifier": @"web", @"user_status": @"visitor"};
+    typeof(self) __weak wself = self;
+    [self.objectManager getObject:movie path:nil parameters:parameters success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+        onSuccess([mappingResult firstObject]);
+    } failure:^(RKObjectRequestOperation *operation, NSError *error) {
+        [wself handleServerError:error performingOperation:operation withErrorBlock:onError];
+    }];
+}
+
 @end
