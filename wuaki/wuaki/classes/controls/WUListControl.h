@@ -10,8 +10,10 @@
 
 
 @class WUList;
+@class WUMovie;
 
 
 @interface WUListControl : UIControl
+@property (nonatomic, weak  ) WUMovie *lastSelectedMovie;
 - (instancetype)initWithList:(WUList *)list;
 @end

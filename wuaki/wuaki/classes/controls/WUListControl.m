@@ -7,6 +7,11 @@
 //
 
 #import "WUListControl.h"
+#import "WUMovieSelectedRecognizer.h"
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "WULogLevel.h"
+
 #import "WUList.h"
 #import "WUContent.h"
 #import "WUMovie.h"
@@ -75,7 +80,6 @@
         UIImageView *previousContentImage;
         for (WUContent *content in self.list.content) {
             UIImageView *contentImage = [[UIImageView alloc] init];
-            contentImage.userInteractionEnabled = YES;
             contentImage.contentMode = UIViewContentModeScaleAspectFill;
             [contentImage sd_setImageWithURL:content.image.artwork];
             [scrollView addSubview:contentImage];
@@ -95,11 +99,29 @@
                     make.left.equalTo(scrollView.mas_left);
                 }];
             }
+            
+            if ([content isKindOfClass:[WUMovie class]]) {
+                WUMovieSelectedRecognizer *selectionRecognizer = [[WUMovieSelectedRecognizer alloc] initWithTarget:self action:@selector(handleSelection:)];
+                selectionRecognizer.movie = (WUMovie *)content;
+                contentImage.userInteractionEnabled = YES;
+                [contentImage addGestureRecognizer:selectionRecognizer];
+            }
+            
             previousContentImage = contentImage;
         }
         [previousContentImage mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.equalTo(scrollView.mas_right);
         }];
+    }
+}
+
+#pragma mark Event management
+
+- (void)handleSelection:(WUMovieSelectedRecognizer *)selectionRecognizer {
+    if (selectionRecognizer.state == UIGestureRecognizerStateEnded) {
+        DDLogInfo(@"Movie selected: %@", selectionRecognizer.movie.title);
+        self.lastSelectedMovie = selectionRecognizer.movie;
+        [self sendActionsForControlEvents:UIControlEventPrimaryActionTriggered];
     }
 }
 
