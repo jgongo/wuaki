@@ -70,7 +70,8 @@
         scrollView.showsVerticalScrollIndicator = NO;
         [self addSubview:scrollView];
         [scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.height.equalTo(@100);                                 // Constant height?
+            CGFloat scrollViewHeight = UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad ? 175 : 100;
+            make.height.equalTo(@(scrollViewHeight));
             make.top.equalTo(listHeader.mas_bottom).with.offset(8);
             make.left.equalTo(self.mas_left);
             make.right.equalTo(self.mas_right);
