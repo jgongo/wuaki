@@ -70,7 +70,7 @@
         }];
         if (previousListControl) {
             [listControl mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.top.equalTo(previousListControl.mas_bottom).with.offset(8);
+                make.top.equalTo(previousListControl.mas_bottom).with.offset(20);
             }];
         } else {
             [listControl mas_makeConstraints:^(MASConstraintMaker *make) {
