@@ -23,6 +23,7 @@ target 'wuaki' do
   pod 'XCDLumberjackNSLogger', '1.1.0'
 
   # UI
+  pod 'Masonry',         '1.0.2'
   pod 'RMessage',        '2.1.0'
   pod 'SDWebImage',      '3.8.2'
 

@@ -41,7 +41,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="9Wb-PJ-x25" secondAttribute="trailing" id="KFa-Wq-Cfw"/>
                             <constraint firstItem="Onw-ah-Mdf" firstAttribute="top" secondItem="9Wb-PJ-x25" secondAttribute="bottom" id="SbM-wE-I2x"/>

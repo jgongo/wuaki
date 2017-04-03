@@ -11,6 +11,7 @@ PODS:
   - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
   - Kiwi (2.4.0)
+  - Masonry (1.0.2)
   - NSLogger (1.7.0):
     - NSLogger/Standard (= 1.7.0)
   - NSLogger/Standard (1.7.0)
@@ -65,6 +66,7 @@ PODS:
 DEPENDENCIES:
   - CocoaLumberjack (= 2.4.0)
   - Kiwi (= 2.4.0)
+  - Masonry (= 1.0.2)
   - OHHTTPStubs (= 5.2.1)
   - RestKit/Core (= 0.27.0)
   - RestKit/Testing (= 0.27.0)
@@ -78,6 +80,7 @@ SPEC CHECKSUMS:
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   NSLogger: daa17368272ddf10a0850c218fe49de23b50f2eb
   OHHTTPStubs: 3a42f25c00563b71355ac73112ba2324e9e6cef4
   PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
@@ -90,6 +93,6 @@ SPEC CHECKSUMS:
   Typhoon: c0950bb9f2e835eb8a7dc6983160109b6baf2dda
   XCDLumberjackNSLogger: b39a8d2fee8094b3d8bf9031cb97e2200971addb
 
-PODFILE CHECKSUM: 1be7c361d795d0f9c147f3a70b4d91952f67dc50
+PODFILE CHECKSUM: 15b90f4e382897bfb0147d573c9908c0a0c62117
 
 COCOAPODS: 1.2.0

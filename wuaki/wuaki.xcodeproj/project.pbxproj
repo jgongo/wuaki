@@ -103,6 +103,7 @@
 		1DA901861E9252DF001EA850 /* WUFrontPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901851E9252DF001EA850 /* WUFrontPageViewController.m */; };
 		1DA901891E925361001EA850 /* UIViewController+InjectedServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901881E925361001EA850 /* UIViewController+InjectedServices.m */; };
 		1DA9018C1E925489001EA850 /* WUMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9018B1E925489001EA850 /* WUMovieDetailViewController.m */; };
+		1DA9018F1E9269CA001EA850 /* WUListControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9018E1E9269CA001EA850 /* WUListControl.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -297,6 +298,8 @@
 		1DA901881E925361001EA850 /* UIViewController+InjectedServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InjectedServices.m"; sourceTree = "<group>"; };
 		1DA9018A1E925489001EA850 /* WUMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUMovieDetailViewController.h; sourceTree = "<group>"; };
 		1DA9018B1E925489001EA850 /* WUMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUMovieDetailViewController.m; sourceTree = "<group>"; };
+		1DA9018D1E9269CA001EA850 /* WUListControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUListControl.h; sourceTree = "<group>"; };
+		1DA9018E1E9269CA001EA850 /* WUListControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUListControl.m; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -561,6 +564,8 @@
 		1D97271C1E8E6D9E00E8917D /* controls */ = {
 			isa = PBXGroup;
 			children = (
+				1DA9018D1E9269CA001EA850 /* WUListControl.h */,
+				1DA9018E1E9269CA001EA850 /* WUListControl.m */,
 			);
 			path = controls;
 			sourceTree = "<group>";
@@ -1117,6 +1122,7 @@
 				1DA9018C1E925489001EA850 /* WUMovieDetailViewController.m in Sources */,
 				1D2B36621E900C080009316C /* WUTVShow+MappedEntity.m in Sources */,
 				1DA901361E90F4D4001EA850 /* WUFrontPage.m in Sources */,
+				1DA9018F1E9269CA001EA850 /* WUListControl.m in Sources */,
 				1D78A4E01E8FB27400C0790A /* WUStreaming.m in Sources */,
 				1D2B365F1E900A6C0009316C /* WUSite+MappedEntity.m in Sources */,
 				1D78A4E31E8FB28400C0790A /* WUStreamInfo.m in Sources */,

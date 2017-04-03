@@ -8,14 +8,53 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate () <UISplitViewControllerDelegate>
+// Infrastructure
+#import <Typhoon/Typhoon.h>
+#import "WUAssembly.h"
 
+// Utils - Logging
+#import <Cocoalumberjack/CocoaLumberjack.h>
+#import <XCDLumberjackNSLogger/XCDLumberjackNSLogger.h>
+#import "INLogFormatter.h"
+
+
+#pragma mark Class extension
+
+@interface AppDelegate () <UISplitViewControllerDelegate>
 @end
+
+
+#pragma mark - Class implementation
 
 @implementation AppDelegate
 
 
+- (void)configureLogger {
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+//#if defined(CONFIGURATION_Debug)
+    setenv("XcodeColors", "YES", 1);
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1.0] backgroundColor:nil forFlag:DDLogFlagVerbose];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1.0] backgroundColor:nil forFlag:DDLogFlagDebug];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor colorWithRed:0.0 green:0.5 blue:0.0 alpha:1.0] backgroundColor:nil forFlag:DDLogFlagInfo];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor colorWithRed:0.7 green:0.4 blue:0.0 alpha:1.0] backgroundColor:nil forFlag:DDLogFlagWarning];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor colorWithRed:0.5 green:0.0 blue:0.0 alpha:1.0] backgroundColor:nil forFlag:DDLogFlagError];
+    [DDTTYLogger sharedInstance].logFormatter = [[INLogFormatter alloc] init];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+//#endif
+//#if defined(CONFIGURATION_Debug) || defined(CONFIGURATION_Testing)
+    [DDLog addLogger:[XCDLumberjackNSLogger new]];
+//#endif
+}
+
+- (void)loadSharedObjectsContext {
+    TyphoonComponentFactory *factory = [TyphoonBlockComponentFactory factoryWithAssemblies:@[[[WUAssembly assembly] activateWithConfigResourceName:@"wuaki.properties"]]];
+    [factory makeDefault];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self configureLogger];
+    [self loadSharedObjectsContext];
     return YES;
 }
 
