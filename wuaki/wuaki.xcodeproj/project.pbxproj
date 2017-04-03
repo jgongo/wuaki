@@ -43,8 +43,6 @@
 		1D78A5051E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78A5041E8FC14C00C0790A /* WUStreamInfo+MappedEntity.m */; };
 		1D9726DF1E8E624D00E8917D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9726DE1E8E624D00E8917D /* main.m */; };
 		1D9727211E8E6D9E00E8917D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727161E8E6D9E00E8917D /* AppDelegate.m */; };
-		1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727191E8E6D9E00E8917D /* DetailViewController.m */; };
-		1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97271B1E8E6D9E00E8917D /* MasterViewController.m */; };
 		1D9727301E8E6DA600E8917D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9727261E8E6DA600E8917D /* Assets.xcassets */; };
 		1D9727321E8E6DA600E8917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272B1E8E6DA600E8917D /* LaunchScreen.storyboard */; };
 		1D9727331E8E6DA600E8917D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D97272D1E8E6DA600E8917D /* Main.storyboard */; };
@@ -102,6 +100,9 @@
 		1DA9017E1E913B67001EA850 /* response.streaming.error.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9017D1E913B67001EA850 /* response.streaming.error.json */; };
 		1DA901801E913B72001EA850 /* response.streaming.success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9017F1E913B72001EA850 /* response.streaming.success.json */; };
 		1DA901831E913BC9001EA850 /* WUServiceStreamingRetrievalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901821E913BC9001EA850 /* WUServiceStreamingRetrievalSpec.m */; };
+		1DA901861E9252DF001EA850 /* WUFrontPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901851E9252DF001EA850 /* WUFrontPageViewController.m */; };
+		1DA901891E925361001EA850 /* UIViewController+InjectedServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA901881E925361001EA850 /* UIViewController+InjectedServices.m */; };
+		1DA9018C1E925489001EA850 /* WUMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9018B1E925489001EA850 /* WUMovieDetailViewController.m */; };
 		30179AED190C69F8202D484A /* libPods-wuaki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */; };
 		38AEEE6F37A1537DFDF99049 /* libPods-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BFB4C1B082357B1C210F0 /* libPods-wuakiTests.a */; };
 		D97C5FF455833628A7C0C545 /* libPods-wuaki-wuakiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC609757444786BEC5C042F /* libPods-wuaki-wuakiTests.a */; };
@@ -191,10 +192,6 @@
 		1D9727011E8E624E00E8917D /* wuakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wuakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9727151E8E6D9E00E8917D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D9727161E8E6D9E00E8917D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D9727181E8E6D9E00E8917D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		1D9727191E8E6D9E00E8917D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1D97271A1E8E6D9E00E8917D /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		1D97271B1E8E6D9E00E8917D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		1D9727261E8E6DA600E8917D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9727281E8E6DA600E8917D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D97272C1E8E6DA600E8917D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -294,6 +291,12 @@
 		1DA9017D1E913B67001EA850 /* response.streaming.error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.streaming.error.json; sourceTree = "<group>"; };
 		1DA9017F1E913B72001EA850 /* response.streaming.success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.streaming.success.json; sourceTree = "<group>"; };
 		1DA901821E913BC9001EA850 /* WUServiceStreamingRetrievalSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUServiceStreamingRetrievalSpec.m; sourceTree = "<group>"; };
+		1DA901841E9252DF001EA850 /* WUFrontPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUFrontPageViewController.h; sourceTree = "<group>"; };
+		1DA901851E9252DF001EA850 /* WUFrontPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUFrontPageViewController.m; sourceTree = "<group>"; };
+		1DA901871E925361001EA850 /* UIViewController+InjectedServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+InjectedServices.h"; sourceTree = "<group>"; };
+		1DA901881E925361001EA850 /* UIViewController+InjectedServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InjectedServices.m"; sourceTree = "<group>"; };
+		1DA9018A1E925489001EA850 /* WUMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUMovieDetailViewController.h; sourceTree = "<group>"; };
+		1DA9018B1E925489001EA850 /* WUMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUMovieDetailViewController.m; sourceTree = "<group>"; };
 		49AF413C2C23774B12D6F9F6 /* libPods-wuaki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wuaki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E6EAD21EF44B00841C370F /* Pods-wuaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuaki.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuaki/Pods-wuaki.release.xcconfig"; sourceTree = "<group>"; };
 		AD9ED6B6C93C6FEA8FA44E59 /* Pods-wuakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuakiTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-wuakiTests/Pods-wuakiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -545,10 +548,12 @@
 		1D9727171E8E6D9E00E8917D /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1D9727181E8E6D9E00E8917D /* DetailViewController.h */,
-				1D9727191E8E6D9E00E8917D /* DetailViewController.m */,
-				1D97271A1E8E6D9E00E8917D /* MasterViewController.h */,
-				1D97271B1E8E6D9E00E8917D /* MasterViewController.m */,
+				1DA901871E925361001EA850 /* UIViewController+InjectedServices.h */,
+				1DA901881E925361001EA850 /* UIViewController+InjectedServices.m */,
+				1DA901841E9252DF001EA850 /* WUFrontPageViewController.h */,
+				1DA901851E9252DF001EA850 /* WUFrontPageViewController.m */,
+				1DA9018A1E925489001EA850 /* WUMovieDetailViewController.h */,
+				1DA9018B1E925489001EA850 /* WUMovieDetailViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -1109,7 +1114,7 @@
 				1DA900F91E90129B001EA850 /* WUMedia.m in Sources */,
 				1DA9010B1E901883001EA850 /* WUDRMType.m in Sources */,
 				1DA9012E1E902277001EA850 /* WUVideoQuality+MappedEntity.m in Sources */,
-				1D9727221E8E6D9E00E8917D /* DetailViewController.m in Sources */,
+				1DA9018C1E925489001EA850 /* WUMovieDetailViewController.m in Sources */,
 				1D2B36621E900C080009316C /* WUTVShow+MappedEntity.m in Sources */,
 				1DA901361E90F4D4001EA850 /* WUFrontPage.m in Sources */,
 				1D78A4E01E8FB27400C0790A /* WUStreaming.m in Sources */,
@@ -1118,6 +1123,7 @@
 				1D2B365C1E900A5D0009316C /* WUSeason+MappedEntity.m in Sources */,
 				1DA9014A1E9108DB001EA850 /* WUError.m in Sources */,
 				1DA900FF1E90177B001EA850 /* WULanguage.m in Sources */,
+				1DA901891E925361001EA850 /* UIViewController+InjectedServices.m in Sources */,
 				1DA901221E90222C001EA850 /* WUMedia+MappedEntity.m in Sources */,
 				1DA9013C1E90FB10001EA850 /* WUFrontPage+MappedEntity.m in Sources */,
 				1D97274F1E8ED11400E8917D /* INMappedEntitiesCatalog.m in Sources */,
@@ -1134,13 +1140,13 @@
 				1DA9011C1E902204001EA850 /* WUDRMType+MappedEntity.m in Sources */,
 				1D1C23691E8FEC9A00B431CF /* WUStreaming+MappedEntity.m in Sources */,
 				1DA900F31E900F18001EA850 /* WUMovie.m in Sources */,
+				1DA901861E9252DF001EA850 /* WUFrontPageViewController.m in Sources */,
 				1D2B36501E9008530009316C /* WUIcon+MappedEntity.m in Sources */,
 				1DA9011F1E90221A001EA850 /* WULanguage+MappedEntity.m in Sources */,
 				1D2B36361E8FF95C0009316C /* WUGenre.m in Sources */,
 				1DA901281E902249001EA850 /* WUMovie+MappedEntity.m in Sources */,
 				1D2B36591E9009E40009316C /* WUScore+MappedEntity.m in Sources */,
 				1D2B36451E8FFF560009316C /* WUSeason.m in Sources */,
-				1D9727231E8E6D9E00E8917D /* MasterViewController.m in Sources */,
 				1DA9013F1E90FB2F001EA850 /* WUList+MappedEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
