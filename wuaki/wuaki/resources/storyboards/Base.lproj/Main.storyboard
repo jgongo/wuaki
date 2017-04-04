@@ -87,6 +87,9 @@
                                         <state key="normal" title="TRAILER">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="trailerButtonTapped:" destination="yRH-de-Dpt" eventType="touchUpInside" id="29W-GT-W5h"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T33-nf-blx">
                                         <rect key="frame" x="8" y="219" width="39" height="21"/>

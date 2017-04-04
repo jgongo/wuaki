@@ -7,6 +7,8 @@
 //
 
 #import "WUMovieDetailViewController.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
 
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import "WULogLevel.h"
@@ -18,6 +20,8 @@
 #import "WUClassification.h"
 #import "WUScore.h"
 #import "WUSite.h"
+#import "WUStreaming.h"
+#import "WUStreamInfo.h"
 
 #import <RMessage/RMessage.h>
 #import <SDWebImage/UIImageView+WebCache.h>
@@ -82,6 +86,22 @@
             [RMessage showNotificationWithTitle:@"Qué vergüenza!" subtitle:@"Algo ha pasado intentando mostrarte la información de una de nuestras pelis... ¿tienes activado Internet?" type:RMessageTypeError customTypeName:nil callback:nil];
         }];
     }
+}
+
+#pragma mark Event management
+
+- (IBAction)trailerButtonTapped:(id)sender {
+    typeof(self) __weak wself = self;
+    [self.service getDefaultTrailer:self.movie onSuccess:^(WUStreaming *streaming) {
+        AVPlayer *player = [[AVPlayer alloc] initWithURL:streaming.streams[0].url];
+        AVPlayerViewController *playerViewController = [[AVPlayerViewController alloc] init];
+        playerViewController.player = player;
+        [wself presentViewController:playerViewController animated:YES completion:^{
+            [player play];
+        }];
+    } onError:^(NSError *error) {
+        [RMessage showNotificationWithTitle:@"Qué vergüenza!" subtitle:@"Algo ha pasado intentando mostrar el trailer de una de nuestras pelis... ¿tienes activado Internet?" type:RMessageTypeError customTypeName:nil callback:nil];
+    }];
 }
 
 @end
