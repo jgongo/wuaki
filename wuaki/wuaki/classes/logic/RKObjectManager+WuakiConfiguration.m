@@ -23,7 +23,7 @@ NSString *const ROUTE_STREAMING = @"route.streaming";
 static NSString *const PATH_FRONT_PAGE = @"gardens/portada";
 static NSString *const PATH_MOVIE = @"movies/:identifier";
 static NSString *const PATH_TV_SHOW = @"tv_shows/:identifier";
-static NSString *const PATH_STREAMING = @"streamings";
+static NSString *const PATH_STREAMING = @"me/streamings";
 
 
 @implementation RKObjectManager (WuakiConfiguration)

@@ -65,7 +65,7 @@ describe(@"Wuaki service - streaming retrieval", ^{
     context(@"communicating with the server", ^{
         beforeEach(^{
             [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
-                [[request should] matchPath:@"streamings"];
+                [[request should] matchPath:@"me/streamings"];
                 [[request should] bePOSTRequest];
                 [[request should] haveEmptyBody];
                 [[request should] accept:application_json];
