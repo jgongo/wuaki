@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -52,7 +53,7 @@
                     <navigationItem key="navigationItem" id="F85-nv-jnf"/>
                     <connections>
                         <outlet property="scrollView" destination="9Wb-PJ-x25" id="SeB-Sk-y5c"/>
-                        <segue destination="yRH-de-Dpt" kind="show" identifier="segue:movie-detail" id="Ld8-hG-hJn"/>
+                        <segue destination="yRH-de-Dpt" kind="show" identifier="segue:movie-details" id="Ld8-hG-hJn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gFQ-1M-JCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -73,18 +74,108 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B9G-aW-fro">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qpb-w8-O0X">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="211"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="qpb-w8-O0X" secondAttribute="height" multiplier="16:9" id="AWq-aT-Tty"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LpR-O1-VuH">
+                                        <rect key="frame" x="155" y="90.5" width="64" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="TRAILER">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T33-nf-blx">
+                                        <rect key="frame" x="8" y="219" width="39" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oP0-tg-jC5">
+                                        <rect key="frame" x="55" y="219" width="11" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La luz de mis ojos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xh9-qf-911">
+                                        <rect key="frame" x="8" y="248" width="136" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm6-0L-zcR">
+                                        <rect key="frame" x="8" y="277" width="359" height="203"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet semper nibh. Pellentesque ut malesuada diam. Phasellus a facilisis magna. Curabitur fermentum orci in justo laoreet condimentum. Nam vel massa urna. Sed in justo tincidunt, semper dolor ut, volutpat erat. Nulla nec libero vel diam vulputate laoreet. Nulla suscipit, nibh sit amet malesuada elementum, ligula purus vehicula dolor, id euismod lacus odio ac tortor.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valoración" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34K-92-yQB">
+                                        <rect key="frame" x="8" y="511.5" width="80" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-pb-HM0">
+                                        <rect key="frame" x="96" y="511.5" width="22" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZQD-nL-aYq">
+                                        <rect key="frame" x="126" y="488" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="6aM-j1-2gZ"/>
+                                            <constraint firstAttribute="height" constant="40" id="COI-ii-d3I"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LpR-O1-VuH" firstAttribute="centerX" secondItem="qpb-w8-O0X" secondAttribute="centerX" id="0u0-ZM-ift"/>
+                                    <constraint firstItem="T33-nf-blx" firstAttribute="leading" secondItem="B9G-aW-fro" secondAttribute="leading" constant="8" id="1if-1U-9Ha"/>
+                                    <constraint firstItem="DnS-pb-HM0" firstAttribute="baseline" secondItem="ZQD-nL-aYq" secondAttribute="baseline" id="2oE-BE-osf"/>
+                                    <constraint firstItem="qpb-w8-O0X" firstAttribute="leading" secondItem="B9G-aW-fro" secondAttribute="leading" id="3Oa-q9-YaM"/>
+                                    <constraint firstItem="Zm6-0L-zcR" firstAttribute="leading" secondItem="B9G-aW-fro" secondAttribute="leading" constant="8" id="4GT-4x-wwW"/>
+                                    <constraint firstItem="T33-nf-blx" firstAttribute="top" secondItem="qpb-w8-O0X" secondAttribute="bottom" constant="8" id="4j9-K2-55Q"/>
+                                    <constraint firstItem="34K-92-yQB" firstAttribute="leading" secondItem="Zm6-0L-zcR" secondAttribute="leading" id="AhB-ki-soo"/>
+                                    <constraint firstAttribute="trailing" secondItem="qpb-w8-O0X" secondAttribute="trailing" id="QEp-GV-eux"/>
+                                    <constraint firstItem="34K-92-yQB" firstAttribute="baseline" secondItem="ZQD-nL-aYq" secondAttribute="baseline" id="QXK-aO-H1X"/>
+                                    <constraint firstItem="Xh9-qf-911" firstAttribute="top" secondItem="T33-nf-blx" secondAttribute="bottom" constant="8" id="SDE-Hb-X4W"/>
+                                    <constraint firstItem="oP0-tg-jC5" firstAttribute="baseline" secondItem="T33-nf-blx" secondAttribute="baseline" id="ZR2-BQ-FTW"/>
+                                    <constraint firstItem="LpR-O1-VuH" firstAttribute="centerY" secondItem="qpb-w8-O0X" secondAttribute="centerY" id="cmg-pZ-ait"/>
+                                    <constraint firstItem="Zm6-0L-zcR" firstAttribute="top" secondItem="Xh9-qf-911" secondAttribute="bottom" constant="8" id="eXh-x0-QfO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Zm6-0L-zcR" secondAttribute="trailing" constant="8" id="fBG-UG-xUq"/>
+                                    <constraint firstItem="qpb-w8-O0X" firstAttribute="top" secondItem="B9G-aW-fro" secondAttribute="top" id="lpS-xu-n4f"/>
+                                    <constraint firstItem="ZQD-nL-aYq" firstAttribute="top" secondItem="Zm6-0L-zcR" secondAttribute="bottom" constant="8" id="oIh-FO-Hz0"/>
+                                    <constraint firstItem="oP0-tg-jC5" firstAttribute="leading" secondItem="T33-nf-blx" secondAttribute="trailing" constant="8" id="peA-sX-S6L"/>
+                                    <constraint firstAttribute="bottom" secondItem="34K-92-yQB" secondAttribute="bottom" constant="20" id="plS-L1-yJC"/>
+                                    <constraint firstItem="DnS-pb-HM0" firstAttribute="leading" secondItem="34K-92-yQB" secondAttribute="trailing" constant="8" id="pyz-eJ-gRH"/>
+                                    <constraint firstItem="ZQD-nL-aYq" firstAttribute="leading" secondItem="DnS-pb-HM0" secondAttribute="trailing" constant="8" id="u9I-bw-6cI"/>
+                                    <constraint firstItem="Xh9-qf-911" firstAttribute="leading" secondItem="T33-nf-blx" secondAttribute="leading" id="xas-sT-YwM"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="B9G-aW-fro" firstAttribute="top" secondItem="21A-Lc-LAI" secondAttribute="top" id="JWj-P0-JpS"/>
                             <constraint firstItem="yyK-ux-DIl" firstAttribute="top" secondItem="B9G-aW-fro" secondAttribute="bottom" id="LrP-Re-cXh"/>
+                            <constraint firstItem="qpb-w8-O0X" firstAttribute="width" secondItem="21A-Lc-LAI" secondAttribute="width" id="Mj3-MM-BqG"/>
                             <constraint firstItem="B9G-aW-fro" firstAttribute="leading" secondItem="21A-Lc-LAI" secondAttribute="leading" id="eC7-Rf-JBc"/>
                             <constraint firstAttribute="trailing" secondItem="B9G-aW-fro" secondAttribute="trailing" id="hpO-0b-Mtq"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="classificationLabel" destination="oP0-tg-jC5" id="lea-mT-Z3v"/>
+                        <outlet property="plotLabel" destination="Zm6-0L-zcR" id="7PT-l7-wvl"/>
+                        <outlet property="scoreLabel" destination="DnS-pb-HM0" id="90z-Vo-zUt"/>
+                        <outlet property="scoreSiteImageView" destination="ZQD-nL-aYq" id="YGc-9T-000"/>
                         <outlet property="scrollView" destination="B9G-aW-fro" id="YS4-Qy-2PE"/>
+                        <outlet property="snapshotImageView" destination="qpb-w8-O0X" id="OAL-PD-Tfg"/>
+                        <outlet property="titleLabel" destination="Xh9-qf-911" id="Fdd-Sr-lGz"/>
+                        <outlet property="yearLabel" destination="T33-nf-blx" id="e6m-A3-dNN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8W0-g3-EE1" userLabel="First Responder" sceneMemberID="firstResponder"/>

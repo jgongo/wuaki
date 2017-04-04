@@ -20,12 +20,15 @@
 #import <RMessage/RMessage.h>
 #import "WUListControl.h"
 
+#import "WUMovieDetailViewController.h"
+
 
 #pragma mark - Class extension
 
 @interface WUFrontPageViewController ()
 @property (nonatomic, weak  ) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, strong) WUFrontPage *frontPage;
+@property (nonatomic, weak  ) WUMovie *selectedMovie;
 @end
 
 
@@ -47,14 +50,14 @@
     }];
 }
 
-#pragma mark - Properties
+#pragma mark Properties
 
 - (void)setFrontPage:(WUFrontPage *)frontPage {
     _frontPage = frontPage;
     [self buildInterface];
 }
 
-#pragma mark - Interface
+#pragma mark Interface
 
 - (void)buildInterface {
     UIControl *previousListControl;
@@ -78,6 +81,8 @@
             }];
         }
         
+        [listControl addTarget:self action:@selector(movieSelected:) forControlEvents:UIControlEventPrimaryActionTriggered];
+        
         previousListControl = listControl;
     }
     
@@ -86,14 +91,19 @@
     }];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark Event management
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)movieSelected:(WUListControl *)listControl {
+    self.selectedMovie = listControl.lastSelectedMovie;
+    [self performSegueWithIdentifier:@"segue:movie-details" sender:self];
 }
-*/
+
+#pragma mark Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    WUMovieDetailViewController *destinationViewController = segue.destinationViewController;
+    destinationViewController.movie = self.selectedMovie;
+}
+
 
 @end
