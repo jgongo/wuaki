@@ -22,7 +22,7 @@ FOUNDATION_EXTERN NSString *const WUWuakiErrorDomain;
 typedef void (^FrontPageSuccessBlock)(WUFrontPage *frontPage);
 typedef void (^MovieSuccessBlock)(WUMovie *movie);
 typedef void (^TVShowSuccessBlock)(WUTVShow *movie);
-typedef void (^StreamingSuccessBlock)(WUStreaming *movie);
+typedef void (^StreamingSuccessBlock)(WUStreaming *streaming);
 typedef void (^ErrorBlock)(NSError *error);
 
 
